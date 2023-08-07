@@ -1,0 +1,2 @@
+[03-Aug-2023 14:17:19 Asia/Shanghai] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in E:\gameback\includes\common.inc.php on line 55
+[03-Aug-2023 14:22:24 Asia/Shanghai] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in E:\gameback\includes\common.inc.php on line 55

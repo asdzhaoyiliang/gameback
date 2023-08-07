@@ -1,0 +1,514 @@
+[ 2020-02-01 05:15:06 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-01 07:46:45 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 07:46:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777317 AND batch_id=
+[ 2020-02-01 16:22:24 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-01 18:25:54 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:25:55 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:25:56 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:26:05 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:26:30 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:26:31 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:26:31 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777335 AND batch_id=
+[ 2020-02-01 18:35:16 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777337 AND batch_id=
+[ 2020-02-01 18:35:17 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777337 AND batch_id=
+[ 2020-02-01 22:52:27 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777346 AND batch_id=
+[ 2020-02-01 23:09:31 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777344 AND batch_id=
+[ 2020-02-02 06:52:25 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 08:56:47 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 09:10:21 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 10:45:34 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 12:33:51 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 20:21:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777380 AND batch_id=
+[ 2020-02-02 21:23:07 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 21:31:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777411 AND batch_id=
+[ 2020-02-02 21:31:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777411 AND batch_id=
+[ 2020-02-02 21:31:53 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777411 AND batch_id=
+[ 2020-02-02 21:31:54 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777411 AND batch_id=
+[ 2020-02-02 21:39:19 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777409 AND batch_id=
+[ 2020-02-02 21:39:21 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777409 AND batch_id=
+[ 2020-02-02 21:39:21 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777409 AND batch_id=
+[ 2020-02-02 21:42:56 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:58 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:58 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:58 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:42:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:02 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:02 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:43:08 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777413 AND batch_id=
+[ 2020-02-02 21:46:39 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 21:52:12 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-02 22:44:17 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-02 22:46:49 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 02:07:05 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 03:10:32 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777439 AND batch_id=
+[ 2020-02-03 03:53:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777441 AND batch_id=
+[ 2020-02-03 03:53:56 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777441 AND batch_id=
+[ 2020-02-03 04:38:18 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 07:33:34 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777411 AND batch_id=
+[ 2020-02-03 07:34:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777411 AND batch_id=
+[ 2020-02-03 07:38:43 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 08:07:57 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 10:06:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777452 AND batch_id=
+[ 2020-02-03 10:06:25 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777452 AND batch_id=
+[ 2020-02-03 10:30:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777455 AND batch_id=
+[ 2020-02-03 11:39:26 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777457 AND batch_id=
+[ 2020-02-03 11:44:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777459 AND batch_id=
+[ 2020-02-03 11:47:13 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 13:39:50 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 13:58:51 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 14:45:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-03 14:45:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-03 14:45:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-03 14:49:49 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 15:42:15 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777466 AND batch_id=
+[ 2020-02-03 15:42:19 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777466 AND batch_id=
+[ 2020-02-03 15:49:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 15:57:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777434 AND batch_id=
+[ 2020-02-03 15:57:26 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777434 AND batch_id=
+[ 2020-02-03 16:41:50 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 18:59:19 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777470 AND batch_id=
+[ 2020-02-03 19:00:54 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-03 22:08:18 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777497 AND batch_id=
+[ 2020-02-03 22:08:22 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777497 AND batch_id=
+[ 2020-02-03 22:46:34 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-04 00:23:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777518 AND batch_id=
+[ 2020-02-04 00:49:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777466 AND batch_id=
+[ 2020-02-04 02:08:32 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 02:33:49 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 03:41:51 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 03:52:58 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 05:03:52 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 05:09:16 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 06:01:17 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 06:16:32 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 06:50:59 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 06:54:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-04 06:54:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-04 07:49:44 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 07:50:07 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 08:09:37 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 08:16:51 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 08:46:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 09:09:27 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 10:09:56 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 10:24:02 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 10:38:54 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777449 AND batch_id=
+[ 2020-02-04 10:39:02 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777449 AND batch_id=
+[ 2020-02-04 10:56:19 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 10:57:28 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 11:26:47 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 11:31:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 11:34:22 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 11:43:46 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 11:47:42 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 12:02:31 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 12:18:40 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 12:29:19 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 12:45:25 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 14:48:54 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 14:57:08 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 17:40:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777377 AND batch_id=
+[ 2020-02-04 17:41:01 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777377 AND batch_id=
+[ 2020-02-04 18:13:13 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 18:44:42 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777566 AND batch_id=
+[ 2020-02-04 18:44:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777566 AND batch_id=
+[ 2020-02-04 19:12:01 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777541 AND batch_id=
+[ 2020-02-04 20:24:34 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777567 AND batch_id=
+[ 2020-02-04 20:24:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777567 AND batch_id=
+[ 2020-02-04 20:24:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777567 AND batch_id=
+[ 2020-02-04 20:24:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777567 AND batch_id=
+[ 2020-02-04 21:16:23 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 23:35:43 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-04 23:43:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777585 AND batch_id=
+[ 2020-02-05 00:48:41 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777589 AND batch_id=
+[ 2020-02-05 00:48:45 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777589 AND batch_id=
+[ 2020-02-05 01:22:02 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 01:37:41 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777595 AND batch_id=
+[ 2020-02-05 01:38:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777595 AND batch_id=
+[ 2020-02-05 01:51:17 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 02:53:56 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 03:38:15 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777600 AND batch_id=
+[ 2020-02-05 03:48:00 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 06:54:34 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 07:47:00 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 08:02:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 08:10:50 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 08:16:03 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 08:47:45 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 08:51:49 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 10:30:32 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 10:45:18 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 11:33:44 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 12:10:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777620 AND batch_id=
+[ 2020-02-05 12:10:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777620 AND batch_id=
+[ 2020-02-05 13:05:07 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 14:00:05 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 15:38:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 16:11:43 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:44 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:45 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:11:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:21 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:22 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 16:13:24 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777633 AND batch_id=
+[ 2020-02-05 17:07:32 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777635 AND batch_id=
+[ 2020-02-05 17:14:13 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777632 AND batch_id=
+[ 2020-02-05 20:48:14 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 20:53:46 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-05 21:50:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777653 AND batch_id=
+[ 2020-02-05 21:50:53 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777653 AND batch_id=
+[ 2020-02-06 01:39:03 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 01:46:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777664 AND batch_id=
+[ 2020-02-06 01:58:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 01:58:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777667 AND batch_id=
+[ 2020-02-06 02:10:43 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 03:25:41 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 05:22:42 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 05:55:58 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 07:01:24 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777678 AND batch_id=
+[ 2020-02-06 07:01:29 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777678 AND batch_id=
+[ 2020-02-06 07:01:45 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777678 AND batch_id=
+[ 2020-02-06 09:39:03 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777657 AND batch_id=
+[ 2020-02-06 09:39:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777657 AND batch_id=
+[ 2020-02-06 09:39:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777657 AND batch_id=
+[ 2020-02-06 09:39:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777657 AND batch_id=
+[ 2020-02-06 09:39:05 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777657 AND batch_id=
+[ 2020-02-06 10:36:29 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 10:38:36 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 13:12:16 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777689 AND batch_id=
+[ 2020-02-06 13:12:18 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777689 AND batch_id=
+[ 2020-02-06 13:21:03 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 13:24:52 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 14:28:33 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 15:09:05 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 16:58:48 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 17:59:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777644 AND batch_id=
+[ 2020-02-06 17:59:11 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777644 AND batch_id=
+[ 2020-02-06 17:59:18 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777644 AND batch_id=
+[ 2020-02-06 18:31:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777452 AND batch_id=
+[ 2020-02-06 20:26:28 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-06 21:45:25 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777425 AND batch_id=
+[ 2020-02-06 21:47:33 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:34 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:35 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:35 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:35 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:35 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:36 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:38 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:43 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:47:44 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:56 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:51:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:52:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:52:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:52:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:52:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:52:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:52:05 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:38 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:39 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:53 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:53 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:54 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 21:54:54 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777378 AND batch_id=
+[ 2020-02-06 23:01:43 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777744 AND batch_id=
+[ 2020-02-06 23:01:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777744 AND batch_id=
+[ 2020-02-06 23:01:58 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777744 AND batch_id=
+[ 2020-02-06 23:02:05 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777744 AND batch_id=
+[ 2020-02-06 23:02:06 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777744 AND batch_id=
+[ 2020-02-06 23:56:38 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777734 AND batch_id=
+[ 2020-02-06 23:56:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777734 AND batch_id=
+[ 2020-02-07 01:27:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777750 AND batch_id=
+[ 2020-02-07 03:14:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777756 AND batch_id=
+[ 2020-02-07 03:14:13 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777756 AND batch_id=
+[ 2020-02-07 04:18:24 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 04:40:18 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 06:11:18 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 07:01:33 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 07:31:02 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 08:15:26 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 08:43:23 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 09:07:09 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 09:30:43 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777759 AND batch_id=
+[ 2020-02-07 10:54:14 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 11:18:47 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 11:26:57 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 11:43:27 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 11:49:12 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 12:05:51 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 12:16:00 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 12:46:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777781 AND batch_id=
+[ 2020-02-07 13:22:54 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 19:28:18 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 19:28:24 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-07 21:00:06 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777806 AND batch_id=
+[ 2020-02-07 22:48:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777813 AND batch_id=
+[ 2020-02-07 23:10:42 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777682 AND batch_id=
+[ 2020-02-07 23:10:44 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777682 AND batch_id=
+[ 2020-02-07 23:10:55 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777682 AND batch_id=
+[ 2020-02-08 01:42:00 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 02:12:17 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 02:20:47 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 03:04:27 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777844 AND batch_id=
+[ 2020-02-08 03:28:44 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1581004800 AND unix_timestamp(logdate)<1581091200 AND serverindex=1
+[ 2020-02-08 03:28:54 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1581017334 AND unix_timestamp(logdate)<1581103734 AND serverindex=1
+[ 2020-02-08 03:28:59 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1581017339 AND unix_timestamp(logdate)<1581103739 AND serverindex=1
+[ 2020-02-08 03:29:02 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1578412800 AND unix_timestamp(logdate)<1581091200 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-08 03:44:18 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 03:58:12 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427092 AND unix_timestamp(logdate)<1581105492 ORDER BY id desc LIMIT 0,50
+[ 2020-02-08 03:58:12 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427092 AND unix_timestamp(logdate)<1581105492 
+[ 2020-02-08 03:58:23 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427103 AND unix_timestamp(logdate)<1581105503 ORDER BY id desc LIMIT 0,50
+[ 2020-02-08 03:58:23 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427103 AND unix_timestamp(logdate)<1581105503 
+[ 2020-02-08 03:59:03 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427143 AND unix_timestamp(logdate)<1581105543 ORDER BY id desc LIMIT 0,50
+[ 2020-02-08 03:59:03 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427143 AND unix_timestamp(logdate)<1581105543 
+[ 2020-02-08 03:59:10 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427150 AND unix_timestamp(logdate)<1581105550 ORDER BY id desc LIMIT 0,50
+[ 2020-02-08 03:59:10 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427150 AND unix_timestamp(logdate)<1581105550 
+[ 2020-02-08 03:59:14 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427154 AND unix_timestamp(logdate)<1581105554 ORDER BY id desc LIMIT 200,50
+[ 2020-02-08 03:59:14 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427154 AND unix_timestamp(logdate)<1581105554 
+[ 2020-02-08 03:59:15 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427155 AND unix_timestamp(logdate)<1581105555 ORDER BY id desc LIMIT 100,50
+[ 2020-02-08 03:59:15 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427155 AND unix_timestamp(logdate)<1581105555 
+[ 2020-02-08 03:59:16 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427156 AND unix_timestamp(logdate)<1581105556 ORDER BY id desc LIMIT 0,50
+[ 2020-02-08 03:59:16 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1578427156 AND unix_timestamp(logdate)<1581105556 
+[ 2020-02-08 04:58:12 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 05:31:09 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 06:20:07 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 06:45:10 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 06:55:25 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 07:19:35 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 08:02:48 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 08:17:36 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 08:19:34 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 08:38:12 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 08:52:02 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 09:46:43 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 09:56:26 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 10:09:05 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 10:24:40 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 10:53:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777858 AND batch_id=
+[ 2020-02-08 10:53:14 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777858 AND batch_id=
+[ 2020-02-08 11:37:35 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777857 AND batch_id=
+[ 2020-02-08 11:37:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777857 AND batch_id=
+[ 2020-02-08 12:38:34 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777871 AND batch_id=
+[ 2020-02-08 13:12:48 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 13:13:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777872 AND batch_id=
+[ 2020-02-08 13:13:58 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777872 AND batch_id=
+[ 2020-02-08 13:23:53 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 13:35:28 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777873 AND batch_id=
+[ 2020-02-08 13:47:26 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 14:31:07 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777622 AND batch_id=
+[ 2020-02-08 15:03:22 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777879 AND batch_id=
+[ 2020-02-08 15:46:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777912 AND batch_id=
+[ 2020-02-08 15:46:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777912 AND batch_id=
+[ 2020-02-08 16:40:06 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 16:49:40 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 16:53:57 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 17:06:34 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 17:32:07 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:10 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:11 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:11 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:11 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:11 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:17 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:32:33 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777939 AND batch_id=
+[ 2020-02-08 17:52:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777953 AND batch_id=
+[ 2020-02-08 17:52:31 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777953 AND batch_id=
+[ 2020-02-08 18:50:29 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-08 18:56:32 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777958 AND batch_id=
+[ 2020-02-08 18:56:38 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777958 AND batch_id=
+[ 2020-02-08 18:56:43 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777958 AND batch_id=
+[ 2020-02-08 19:52:38 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-09 00:30:41 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777997 AND batch_id=
+[ 2020-02-09 00:30:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777997 AND batch_id=
+[ 2020-02-09 01:03:53 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:03:57 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:04:04 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:04:08 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:04:14 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:04:17 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:04:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16778001 AND batch_id=
+[ 2020-02-09 01:13:53 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-09 02:03:36 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-09 02:15:31 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-09 02:41:07 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-09 02:43:06 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-09 03:00:33 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-02-19 05:21:51 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1581974511 AND unix_timestamp(logdate)<1582060911 AND serverindex=1
+[ 2020-02-19 05:21:58 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 05:22:00 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 05:27:56 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 05:27:58 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 05:30:53 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383053 AND unix_timestamp(logdate)<1582061453 ORDER BY id desc LIMIT 0,50
+[ 2020-02-19 05:30:53 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383053 AND unix_timestamp(logdate)<1582061453 
+[ 2020-02-19 05:31:01 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383061 AND unix_timestamp(logdate)<1582061461 ORDER BY id desc LIMIT 0,50
+[ 2020-02-19 05:31:01 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383061 AND unix_timestamp(logdate)<1582061461 
+[ 2020-02-19 05:31:07 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383067 AND unix_timestamp(logdate)<1582061467 ORDER BY id desc LIMIT 0,50
+[ 2020-02-19 05:31:07 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383067 AND unix_timestamp(logdate)<1582061467 
+[ 2020-02-19 05:31:10 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383070 AND unix_timestamp(logdate)<1582061470 ORDER BY id desc LIMIT 50,50
+[ 2020-02-19 05:31:10 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383070 AND unix_timestamp(logdate)<1582061470 
+[ 2020-02-19 05:31:12 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383072 AND unix_timestamp(logdate)<1582061472 ORDER BY id desc LIMIT 0,50
+[ 2020-02-19 05:31:12 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579383072 AND unix_timestamp(logdate)<1582061472 
+[ 2020-02-19 06:05:39 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 06:05:41 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 06:06:39 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579385199 AND unix_timestamp(logdate)<1582063599 ORDER BY id desc LIMIT 0,50
+[ 2020-02-19 06:06:39 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579385199 AND unix_timestamp(logdate)<1582063599 
+[ 2020-02-19 06:11:02 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 06:11:04 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582041600 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 06:11:12 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579363200 AND unix_timestamp(logdate)<1582128000 AND serverindex=1 ORDER BY  logdate ASC
+[ 2020-02-19 16:09:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777252 AND batch_id=
+[ 2020-02-20 21:43:19 ]error sql: UPDATE bg_cdkey SET use_times=use_times+1 WHERE `cdkey`='888888'
+[ 2020-02-20 21:45:01 ]error sql: UPDATE bg_cdkey SET use_times=use_times+1 WHERE `cdkey`='888888'
+[ 2020-02-21 16:37:43 ]error sql: UPDATE bg_cdkey SET use_times=use_times+1 WHERE `cdkey`='888888'
+[ 2020-02-21 17:12:21 ]error sql: UPDATE bg_cdkey SET use_times=use_times+1 WHERE `cdkey`='888888'
+[ 2020-02-21 21:54:12 ]error sql: UPDATE bg_cdkey SET use_times=use_times+1 WHERE `cdkey`='888888'
+[ 2020-02-22 14:55:39 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582268139 AND unix_timestamp(logdate)<1582354539 AND serverindex=1
+[ 2020-02-22 14:56:59 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579676219 AND unix_timestamp(logdate)<1582354619 ORDER BY id desc LIMIT 0,50
+[ 2020-02-22 14:56:59 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579676219 AND unix_timestamp(logdate)<1582354619 
+[ 2020-02-22 14:59:45 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582214400 AND unix_timestamp(logdate)<1582300800 AND serverindex=2
+[ 2020-02-22 14:59:59 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579622400 AND unix_timestamp(logdate)<1582300800 AND serverindex=2 ORDER BY  logdate ASC
+[ 2020-02-22 17:39:26 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579685966 AND unix_timestamp(logdate)<1582364366 ORDER BY id desc LIMIT 0,50
+[ 2020-02-22 17:39:26 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579685966 AND unix_timestamp(logdate)<1582364366 
+[ 2020-02-22 17:40:10 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579686010 AND unix_timestamp(logdate)<1582364410 ORDER BY id desc LIMIT 0,50
+[ 2020-02-22 17:40:10 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1579686010 AND unix_timestamp(logdate)<1582364410 
+[ 2020-02-22 20:42:19 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777327 AND batch_id=
+[ 2020-02-22 20:42:34 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777327 AND batch_id=
+[ 2020-02-22 20:42:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777327 AND batch_id=
+[ 2020-02-22 21:20:22 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777373 AND batch_id=
+[ 2020-02-22 21:20:29 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777373 AND batch_id=
+[ 2020-02-22 21:20:37 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777373 AND batch_id=
+[ 2020-02-23 03:31:29 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579708800 AND unix_timestamp(logdate)<1582387200 AND serverindex=2 ORDER BY  logdate ASC
+[ 2020-02-23 03:31:31 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1579708800 AND unix_timestamp(logdate)<1582387200 AND serverindex=2 ORDER BY  logdate ASC
+[ 2020-02-23 23:11:24 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777240 AND batch_id=
+[ 2020-02-24 09:14:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777274 AND batch_id=
+[ 2020-02-24 17:11:33 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777426 AND batch_id=
+[ 2020-02-24 22:25:14 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777439 AND batch_id=
+[ 2020-02-24 22:25:16 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777439 AND batch_id=
+[ 2020-02-24 22:25:18 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777439 AND batch_id=
+[ 2020-02-25 09:50:41 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777445 AND batch_id=
+[ 2020-02-25 10:19:33 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777432 AND batch_id=
+[ 2020-02-25 13:01:45 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777445 AND batch_id=
+[ 2020-02-26 03:09:59 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582560000 AND unix_timestamp(logdate)<1582646400 AND serverindex=1
+[ 2020-02-26 03:10:03 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582560000 AND unix_timestamp(logdate)<1582646400 AND serverindex=1
+[ 2020-02-26 03:10:05 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582571405 AND unix_timestamp(logdate)<1582657805 AND serverindex=1
+[ 2020-02-26 03:10:09 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582571409 AND unix_timestamp(logdate)<1582657809 AND serverindex=2
+[ 2020-02-26 03:10:12 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582571412 AND unix_timestamp(logdate)<1582657812 AND serverindex=2
+[ 2020-02-26 03:10:21 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582571421 AND unix_timestamp(logdate)<1582657821 AND serverindex=3
+[ 2020-02-26 11:55:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777453 AND batch_id=
+[ 2020-02-26 14:21:47 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777458 AND batch_id=
+[ 2020-02-26 21:55:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777467 AND batch_id=
+[ 2020-02-26 23:23:53 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777470 AND batch_id=
+[ 2020-02-27 11:25:52 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580095552 AND unix_timestamp(logdate)<1582773952 ORDER BY id desc LIMIT 0,50
+[ 2020-02-27 11:25:52 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580095552 AND unix_timestamp(logdate)<1582773952 
+[ 2020-02-27 13:29:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-27 13:29:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-27 13:30:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-27 13:30:23 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-27 13:30:28 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777468 AND batch_id=
+[ 2020-02-27 15:33:09 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777459 AND batch_id=
+[ 2020-02-27 22:54:19 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777482 AND batch_id=
+[ 2020-02-28 00:15:43 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777482 AND batch_id=
+[ 2020-02-28 22:01:14 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-28 22:01:27 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-28 23:52:08 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-28 23:52:17 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-28 23:52:25 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-28 23:52:42 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777531 AND batch_id=
+[ 2020-02-29 05:51:25 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777560 AND batch_id=
+[ 2020-02-29 05:51:26 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777560 AND batch_id=
+[ 2020-02-29 05:51:30 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777560 AND batch_id=
+[ 2020-02-29 05:51:40 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777560 AND batch_id=
+[ 2020-02-29 05:51:52 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777560 AND batch_id=
+[ 2020-02-29 07:27:21 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777561 AND batch_id=
+[ 2020-02-29 07:27:30 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777561 AND batch_id=
+[ 2020-02-29 07:27:41 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777561 AND batch_id=
+[ 2020-02-29 07:27:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777561 AND batch_id=
+[ 2020-02-29 07:28:03 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777561 AND batch_id=
+[ 2020-02-29 09:07:06 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777520 AND batch_id=
+[ 2020-02-29 18:51:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=

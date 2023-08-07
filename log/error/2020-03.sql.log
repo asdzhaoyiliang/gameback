@@ -1,0 +1,39 @@
+[ 2020-03-01 13:45:12 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1582955112 AND unix_timestamp(logdate)<1583041512 AND serverindex=5
+[ 2020-03-01 13:49:29 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1580486400 AND unix_timestamp(logdate)<1582992000 AND serverindex=5 ORDER BY  logdate ASC
+[ 2020-03-02 00:11:49 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777609 AND batch_id=
+[ 2020-03-02 00:11:51 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777609 AND batch_id=
+[ 2020-03-02 00:29:54 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777612 AND batch_id=
+[ 2020-03-02 00:29:55 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777612 AND batch_id=
+[ 2020-03-03 10:01:56 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1583114516 AND unix_timestamp(logdate)<1583200916 AND serverindex=5
+[ 2020-03-03 16:11:27 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777619 AND batch_id=
+[ 2020-03-03 21:21:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777580 AND batch_id=
+[ 2020-03-04 23:07:52 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580828872 AND unix_timestamp(logdate)<1583334472 ORDER BY id desc LIMIT 0,50
+[ 2020-03-04 23:07:52 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580828872 AND unix_timestamp(logdate)<1583334472 
+[ 2020-03-04 23:10:37 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580829037 AND unix_timestamp(logdate)<1583334637 ORDER BY id desc LIMIT 0,50
+[ 2020-03-04 23:10:37 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580829037 AND unix_timestamp(logdate)<1583334637 
+[ 2020-03-05 00:46:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777630 AND batch_id=
+[ 2020-03-05 22:57:28 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580914648 AND unix_timestamp(logdate)<1583420248 ORDER BY id desc LIMIT 0,50
+[ 2020-03-05 22:57:28 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580914648 AND unix_timestamp(logdate)<1583420248 
+[ 2020-03-05 22:59:36 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580914776 AND unix_timestamp(logdate)<1583420376 ORDER BY id desc LIMIT 0,50
+[ 2020-03-05 22:59:36 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580914776 AND unix_timestamp(logdate)<1583420376 
+[ 2020-03-05 23:01:52 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580914912 AND unix_timestamp(logdate)<1583420512 ORDER BY id desc LIMIT 0,50
+[ 2020-03-05 23:01:52 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1580914912 AND unix_timestamp(logdate)<1583420512 
+[ 2020-03-06 21:45:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=
+[ 2020-03-06 21:45:48 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=
+[ 2020-03-06 21:45:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=
+[ 2020-03-06 21:45:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=
+[ 2020-03-06 21:45:50 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=
+[ 2020-03-06 21:45:59 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777476 AND batch_id=
+[ 2020-03-07 00:46:00 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777640 AND batch_id=
+[ 2020-03-07 00:46:02 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777640 AND batch_id=
+[ 2020-03-11 06:43:35 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1581374615 AND unix_timestamp(logdate)<1583880215 ORDER BY id desc LIMIT 0,50
+[ 2020-03-11 06:43:35 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1581374615 AND unix_timestamp(logdate)<1583880215 
+[ 2020-03-14 19:12:45 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777652 AND batch_id=
+[ 2020-03-14 19:12:46 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777652 AND batch_id=
+[ 2020-03-30 04:53:41 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-03-30 06:19:16 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-03-30 10:09:09 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
+[ 2020-03-30 21:25:25 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1583069125 AND unix_timestamp(logdate)<1585574725 ORDER BY id desc LIMIT 0,50
+[ 2020-03-30 21:25:25 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1583069125 AND unix_timestamp(logdate)<1585574725 
+[ 2020-03-31 00:21:57 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1583079717 AND unix_timestamp(logdate)<1585585317 ORDER BY id desc LIMIT 0,50
+[ 2020-03-31 00:21:57 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1583079717 AND unix_timestamp(logdate)<1585585317 

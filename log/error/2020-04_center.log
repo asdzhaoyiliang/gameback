@@ -1,0 +1,45 @@
+[2020-04-01 01:24:25] D:\www\gameback\library\smarty\Smarty.class.php line 1094: Smarty error: unable to read resource: &quot;role/ban_dialog.tpl&quot;
+[2020-04-01 01:24:35] D:\www\gameback\library\smarty\Smarty.class.php line 1094: Smarty error: unable to read resource: &quot;role/ban_dialog.tpl&quot;
+[2020-04-04 12:07:23] D:\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-04-04 12:07:23] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\www\gameback\includes\router.inc.php(14): has_purview('index', 'login')
+#3 D:\www\gameback\includes\common.inc.php(33): require_once('D:\www\gameback...')
+#4 D:\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-04-04 12:07:39] D:\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-04-04 12:07:39] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\www\gameback\includes\router.inc.php(14): has_purview('index', 'login')
+#3 D:\www\gameback\includes\common.inc.php(33): require_once('D:\www\gameback...')
+#4 D:\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-04-04 12:10:59] D:\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-04-04 12:10:59] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\www\gameback\includes\router.inc.php(14): has_purview('index', 'login')
+#3 D:\www\gameback\includes\common.inc.php(33): require_once('D:\www\gameback...')
+#4 D:\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-04-05 04:04:44] D:\www\gameback\controller\OnlineController.class.php line 57: array_keys() expects parameter 1 to be array, null given
+[2020-04-05 04:04:44] D:\www\gameback\controller\OnlineController.class.php line 58: array_values() expects parameter 1 to be array, null given
+[2020-04-05 04:04:50] D:\www\gameback\controller\OnlineController.class.php line 57: array_keys() expects parameter 1 to be array, null given
+[2020-04-05 04:04:50] D:\www\gameback\controller\OnlineController.class.php line 58: array_values() expects parameter 1 to be array, null given
+[2020-04-05 13:13:56] D:\www\gameback\controller\OnlineController.class.php line 57: array_keys() expects parameter 1 to be array, null given
+[2020-04-05 13:13:56] D:\www\gameback\controller\OnlineController.class.php line 58: array_values() expects parameter 1 to be array, null given
+[2020-04-30 15:15:14] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::__construct(): (HY000/2002): ����Ŀ����������ܾ����޷����ӡ�
+
+[2020-04-30 15:15:14] Exception: mysql connect failure:2002
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}

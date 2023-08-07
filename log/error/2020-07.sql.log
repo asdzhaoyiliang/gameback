@@ -1,0 +1,4 @@
+[ 2020-07-04 17:29:47 ]error sql: SELECT * FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1591262987 AND unix_timestamp(logdate)<1593854987 ORDER BY id desc LIMIT 0,50
+[ 2020-07-04 17:29:47 ]error sql: SELECT COUNT(*) AS count_data FROM `bg_notice` WHERE serverid = | AND unix_timestamp(logdate)>=1591262987 AND unix_timestamp(logdate)<1593854987 
+[ 2020-07-04 17:30:19 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1593768619 AND unix_timestamp(logdate)<1593855019 AND serverindex=1
+[ 2020-07-04 17:30:21 ]error sql: SELECT * FROM `bg_online` WHERE unix_timestamp(logdate)>=1591200000 AND unix_timestamp(logdate)<1593792000 AND serverindex=1 ORDER BY  logdate ASC

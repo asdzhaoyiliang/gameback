@@ -1,0 +1,49 @@
+1、修改gameback\includes\define.inc.php  里面 数据库信息为你的信息
+
+
+2、导入数据库 gameback\gameback.sql
+
+
+游戏运营后台:http://ip/gameback/admin.php 
+
+运营后台帐号:admin
+运营后台密码:2020helloyuanCOM (密码注意大小写)
+
+
+
+
+
+
+
+
+
+注意事项：
+
+1、D:\ymcq\build_pub\Server\LogicServer\LogicServer.txt
+
+文件中MgrServer的配置如下需要和你：
+
+	--后台管理服务器(空则不连接)
+	MgrServer = 
+	{ 
+		Host = "127.0.0.1", 
+		Port = 8520
+	},
+
+
+
+
+
+2、不记得后台密码
+
+使用N11连接到数据库
+
+找到gameback 库 bg_user 表修改里面的 password 
+
+
+
+
+
+
+
+

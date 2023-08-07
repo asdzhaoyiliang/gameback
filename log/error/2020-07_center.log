@@ -1,0 +1,22 @@
+[2020-07-04 17:22:45] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-07-04 17:22:45] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-07-04 17:29:03] D:\ymcq\www\gameback\library\smarty\Smarty.class.php line 1094: Smarty error: unable to read resource: &quot;role/ban_dialog.tpl&quot;
+[2020-07-04 17:29:42] D:\ymcq\www\gameback\includes\common.inc.php line 25: session_start(): Cannot send session cache limiter - headers already sent
+[2020-07-04 17:29:42] D:\ymcq\www\gameback\includes\common.inc.php line 26: Cannot modify header information - headers already sent
+[2020-07-04 17:29:44] D:\ymcq\www\gameback\includes\common.inc.php line 25: session_start(): Cannot send session cache limiter - headers already sent
+[2020-07-04 17:29:44] D:\ymcq\www\gameback\includes\common.inc.php line 26: Cannot modify header information - headers already sent
+[2020-07-04 17:29:44] D:\ymcq\www\gameback\includes\common.inc.php line 25: session_start(): Cannot send session cache limiter - headers already sent
+[2020-07-04 17:29:44] D:\ymcq\www\gameback\includes\common.inc.php line 26: Cannot modify header information - headers already sent
+[2020-07-04 17:30:39] D:\ymcq\www\gameback\includes\common.inc.php line 25: session_start(): Cannot send session cache limiter - headers already sent
+[2020-07-04 17:30:39] D:\ymcq\www\gameback\includes\common.inc.php line 26: Cannot modify header information - headers already sent
+[2020-07-04 17:30:41] D:\ymcq\www\gameback\includes\common.inc.php line 25: session_start(): Cannot send session cache limiter - headers already sent
+[2020-07-04 17:30:41] D:\ymcq\www\gameback\includes\common.inc.php line 26: Cannot modify header information - headers already sent
+[2020-07-04 17:30:47] D:\ymcq\www\gameback\includes\common.inc.php line 25: session_start(): Cannot send session cache limiter - headers already sent
+[2020-07-04 17:30:47] D:\ymcq\www\gameback\includes\common.inc.php line 26: Cannot modify header information - headers already sent

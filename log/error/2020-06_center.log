@@ -1,0 +1,99 @@
+[2020-06-12 21:25:01] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-12 21:25:01] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:20:01] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:20:01] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:20:10] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:20:10] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:20:16] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:20:16] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:07] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:07] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:08] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:08] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:08] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:08] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:08] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:08] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:09] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:09] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:12] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:12] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
+[2020-06-27 13:21:13] D:\ymcq\www\gameback\includes\database.inc.php line 35: mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES)
+[2020-06-27 13:21:13] Exception: mysql connect failure:1045
+Stack trace:
+#0 D:\ymcq\www\gameback\model\Model.php(76): DbMysqli->__construct()
+#1 D:\ymcq\www\gameback\includes\common.inc.php(239): Model->__construct()
+#2 D:\ymcq\www\gameback\includes\router.inc.php(14): has_purview('index', 'index')
+#3 D:\ymcq\www\gameback\includes\common.inc.php(33): require_once('D:\\ymcq\\www\\gam...')
+#4 D:\ymcq\www\gameback\admin.php(11): print_page()
+#5 {main}
