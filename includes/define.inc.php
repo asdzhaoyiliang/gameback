@@ -15,21 +15,21 @@ define('MYSQLPORT',3306);
 define('MYSQLUSER','root');
 define('MYSQLPASS','61SrOG4Lwuy7');
 define('DB_NAME','gameback');
-define('TABLE_PREFIX','bg_gm');
+define('TABLE_PREFIX','bg_');
 
 //游戏库
 define('GAMEHOST','127.0.0.1');
 define('GAMEPORT',3306);
 define('GAMEUSER','root');
 define('GAMEPASS','61SrOG4Lwuy7');
-define('GAMEDBNAME','bg_cq_account');
+define('GAMEDBNAME','gameback_account');
 
 //游戏后台数据库
 define('GAMECMDHOST','127.0.0.1');
 define('GAMECMDPORT',3306);
 define('GAMECMDUSER','root');
 define('GAMECMDPASS','61SrOG4Lwuy7');
-define('GAMECMDDBNAME','bg_cq_gstatic');
+define('GAMECMDDBNAME','gameback_gstatic');
 
 
 //菜单设置
@@ -52,7 +52,7 @@ define('DEFAULT_PAGE_COUNT',50);//默认每页显示数据量
 define('LOGIN_URL','admin.php?ctrl=index&act=login');//登录页面链接
 define('TRANSLATE_CACHE_DIR',ROOT.'/runtime/cache/translate/');
 define("GAMEKEY",'2b0351468c0a25a0e17fa412ed1de293');
-define('WWW_PATH',str_replace('\\','/',realpath(dirname(__FILE__).'/../'))); 
+define('WWW_PATH',str_replace('\\','/',realpath(dirname(__FILE__).'/../')));
 define("NETWORKTYPE",'outer');//定义网络类型，inner：内网，outer:外网
 
 //BackStage命令定义
@@ -85,79 +85,79 @@ define('MSS_OPEN_GAMBLE',10025); // 开启赌博系统
 define('MSS_CLOSE_GAMBLE',10026); // 关闭赌博系统
 define('MSS_OPEN_COMMONSERVER',10027); // 开启跨服
 define('MSS_CLOSE_COMMONSERVER',10028); // 关闭跨服
-define('MSS_SEND_OFFMSGTOACOTOR',10029);	//后台给玩家直接发送离线消息 数据段为:(角色名称 + \n + 回复的消息内容)
-define('MSS_OPEN_COMPENSATE',10030);	//后台开启补偿 数据段为：(param为补偿方案ID Tag表示补偿时间(分钟))
-define('MSS_CLOSE_COMPENSATE',10031);	//后台关闭补偿 数据段为：()
-define('MSS_ADD_FILTERWORDS',10032);	//后台添加屏蔽字
-define('MSS_SET_DROPRATE',10033);	//后台设置红白名掉落概率 param:1白背，2白装，3红背，4红装,Tag：概率（百分数)
-define('MSS_SET_QUICKSOFT',10034);	//后台设置外挂的设置
-define('MSS_SET_CHATLEVEL',10035);	//后台设置聊天等级
-define('MSS_SET_DELGUILD',10036);	//后台删除行会
-define('MSS_SET_HUNDREDSERVER',10037);	//后台设置百服活动
-define('MSS_SET_RELOADCONFIG',10038);	//后台加载引擎配置
-define('MSS_SET_REMOVEITEM',10039);	//删除玩家的物品  名字 物品GUID 位置
-define('MSS_SET_REMOVEMONEY',10040);	//删除玩家金钱		字符串：角色名|类型(1 金币 2 绑定元宝 3 元宝)|数量
-define('MSS_DELAY_COMBINE',10041);	//后台设置合服倒计时(param为时间（小时），最后跟开启时间,格式如：2013-01-01 10:0:0)
-define('MSS_GET_NOTICESTR',10042);	//后台请求公告列表
-define('MSS_SET_REFRESHCORSS',10043);	//后台刷新跨服配置
-define('MSS_SET_COMMON_SRVID',10044);	//设置跨服的服务器ID
-define('MSS_GET_COMMON_SRVID',10045);	//获取跨服的服务器Id
-define('MSS_SET_SURPRISERET',10046);	//后台设置惊喜回馈(Tag:库ID（ID=0表示查看开启状态），param为持续的时间（小时）（持续时间为0表示关闭），最后跟开启时间,格式如：2013-01-01 10:0:0)
-define('MSS_RESET_GAMBLE',10047);	//重置盗梦元宝消耗
-define('MSS_SET_CHANGENAME',10048);	//开启改名字功能	0 关闭 1 开启
-define('MSS_SET_OLDPLAYERBACK',10049);	//设置老玩家回归
-define('MSS_SET_RELOADLANG',10050);	//加载语言包
-define('MSS_SET_GROUPON',10051);	//后台设置团购(Tag:库ID（ID=0表示查看开启状态），param为持续的时间（小时）（持续时间为0表示关闭），最后跟开启时间,格式如：2013-01-01 10:0:0)
-define('MSS_SET_CROSSBATTLE',10052);	//开启开启跨服降魔战场	0 关闭 1 开启
-define('MSS_SET_CROSSBATTLENUM',10053);   //设置跨服降魔战场的人数 
-//define('MSS_RELOAD_ITEMFUNCTION',10054);	//刷新道具脚本
-define('MSS_VIEW_STATE',10055);	//查看系统各种状态
-define('MSS_OPEN_MYSTIC',10056);	//开启或关闭神秘商店 字符串：开启或关闭（1 开启 0 关闭）|开启的时长（单位分钟）
-define('MSS_OPEN_DOM',10057);	//开启或关闭寻宝 字符串：开启或关闭（1 开启 0 关闭）
-define('MSS_OPEN_EGGS',10058);	//开启或关闭彩蛋 字符串：开启或关闭（1 开启 0 关闭）
-define('MSS_CLOSE_NOTICE',10059);	//删除所有公告  OK
-define('MSS_ADD_FUNCTIONNAME',10060);	//添加脚本函数名 字符串：脚本名称
-define('MSS_CLEAR_ACTOR',10061);	//角色清理 (等级|充值数|登陆游戏天数)
-define('MSS_DELTE_NOTICEBYID',10062);	//删除公告（根据id） 字符串：公告id
-define('MSS_ENCRPTY_FUNCTION',10063);	//设置是否对脚本加密 字符串：开启或关闭（0 开启 1 关闭）
+define('MSS_SEND_OFFMSGTOACOTOR',10029);    //后台给玩家直接发送离线消息 数据段为:(角色名称 + \n + 回复的消息内容)
+define('MSS_OPEN_COMPENSATE',10030);    //后台开启补偿 数据段为：(param为补偿方案ID Tag表示补偿时间(分钟))
+define('MSS_CLOSE_COMPENSATE',10031);   //后台关闭补偿 数据段为：()
+define('MSS_ADD_FILTERWORDS',10032);    //后台添加屏蔽字
+define('MSS_SET_DROPRATE',10033);   //后台设置红白名掉落概率 param:1白背，2白装，3红背，4红装,Tag：概率（百分数)
+define('MSS_SET_QUICKSOFT',10034);  //后台设置外挂的设置
+define('MSS_SET_CHATLEVEL',10035);  //后台设置聊天等级
+define('MSS_SET_DELGUILD',10036);   //后台删除行会
+define('MSS_SET_HUNDREDSERVER',10037);  //后台设置百服活动
+define('MSS_SET_RELOADCONFIG',10038);   //后台加载引擎配置
+define('MSS_SET_REMOVEITEM',10039); //删除玩家的物品  名字 物品GUID 位置
+define('MSS_SET_REMOVEMONEY',10040);    //删除玩家金钱        字符串：角色名|类型(1 金币 2 绑定元宝 3 元宝)|数量
+define('MSS_DELAY_COMBINE',10041);  //后台设置合服倒计时(param为时间（小时），最后跟开启时间,格式如：2013-01-01 10:0:0)
+define('MSS_GET_NOTICESTR',10042);  //后台请求公告列表
+define('MSS_SET_REFRESHCORSS',10043);   //后台刷新跨服配置
+define('MSS_SET_COMMON_SRVID',10044);   //设置跨服的服务器ID
+define('MSS_GET_COMMON_SRVID',10045);   //获取跨服的服务器Id
+define('MSS_SET_SURPRISERET',10046);    //后台设置惊喜回馈(Tag:库ID（ID=0表示查看开启状态），param为持续的时间（小时）（持续时间为0表示关闭），最后跟开启时间,格式如：2013-01-01 10:0:0)
+define('MSS_RESET_GAMBLE',10047);   //重置盗梦元宝消耗
+define('MSS_SET_CHANGENAME',10048); //开启改名字功能   0 关闭 1 开启
+define('MSS_SET_OLDPLAYERBACK',10049);  //设置老玩家回归
+define('MSS_SET_RELOADLANG',10050); //加载语言包
+define('MSS_SET_GROUPON',10051);    //后台设置团购(Tag:库ID（ID=0表示查看开启状态），param为持续的时间（小时）（持续时间为0表示关闭），最后跟开启时间,格式如：2013-01-01 10:0:0)
+define('MSS_SET_CROSSBATTLE',10052);    //开启开启跨服降魔战场    0 关闭 1 开启
+define('MSS_SET_CROSSBATTLENUM',10053);   //设置跨服降魔战场的人数
+//define('MSS_RELOAD_ITEMFUNCTION',10054);  //刷新道具脚本
+define('MSS_VIEW_STATE',10055); //查看系统各种状态
+define('MSS_OPEN_MYSTIC',10056);    //开启或关闭神秘商店 字符串：开启或关闭（1 开启 0 关闭）|开启的时长（单位分钟）
+define('MSS_OPEN_DOM',10057);   //开启或关闭寻宝 字符串：开启或关闭（1 开启 0 关闭）
+define('MSS_OPEN_EGGS',10058);  //开启或关闭彩蛋 字符串：开启或关闭（1 开启 0 关闭）
+define('MSS_CLOSE_NOTICE',10059);   //删除所有公告  OK
+define('MSS_ADD_FUNCTIONNAME',10060);   //添加脚本函数名 字符串：脚本名称
+define('MSS_CLEAR_ACTOR',10061);    //角色清理 (等级|充值数|登陆游戏天数)
+define('MSS_DELTE_NOTICEBYID',10062);   //删除公告（根据id） 字符串：公告id
+define('MSS_ENCRPTY_FUNCTION',10063);   //设置是否对脚本加密 字符串：开启或关闭（0 开启 1 关闭）
 define('MSS_SET_SPEED_CHECK',10064);   //设置加速外挂检测的参数  字符串:时间比率|开始检测的次数|加速检查值
-define('MSS_SETCHECK_SPEED',10065);	//设置检测外挂的标志 字符串:状态(0关闭 1开启)
-define('MSS_SET_ACCOUNTID',10066);	//设置账号id  字符串:玩家的账户|修改后的账户id
+define('MSS_SETCHECK_SPEED',10065); //设置检测外挂的标志 字符串:状态(0关闭 1开启)
+define('MSS_SET_ACCOUNTID',10066);  //设置账号id  字符串:玩家的账户|修改后的账户id
 define('MSS_SET_RIDE_CHECK',10067);   //设置检测坐骑上下的参数  字符串:上下坐骑多少次|间隔多久算|间隔这么久清除
-define('MSS_SET_NEWCHECK_CHECK',10068);	//设置新检测参数 字符串：参数类型(1:是否为肯定在加速百分比上限参数 2:是否为肯定在加速百分比下限参数 3:可能在加速百分比上限参数 4:误判百分比下限)|参数值(1到100的数值)
-define('MSS_SET_LOGIN_TOOLS',10069);	//使用登陆器登陆杀怪奖励倍率 字符串：奖励倍率(30：表示百分之30)
-define('MSS_SET_THOUSANDSERVER',10070);	//后台开启千服活动 字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数
-define('MSS_CLOSE_THOUSAND',10071);	//关闭千服活动 字符串：无
-define('MSS_SUPER_BUYING',10072);	//开启超值抢购 字符串：开始时间(格式：2013-09-25-16:20:21)|只需天数
-define('MSS_THANKS_ACTIVITY',10073);	//开启惠民消费活动 字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|开启的活动(111111 从左到右依次表示:坐骑提升,法宝猎魔,翅膀羽化,幻武启灵,足迹升阶,经验提升 如果某位为0表示关闭)
-define('MSS_OPEN_MYGICSHOP',10074);	//定时开启神秘商店 字符串：开始时间(格式：2013-09-25-16:20:21)|开启天数
-define('MSS_OPEN_DOUBLEEXP',10075);	//定时开启双倍经验 字符串：开始时间(格式：2013-09-25-16:20:21)|开启小时|倍率(1：1倍 2：2倍 )
-define('MSS_OPEN_FCM',10076);	//后台开启防沉迷
-define('MSS_OPEN_DISCOUNTSITEM',10077);	//开启或关闭特价商品翻倍 字符串：开启或关闭（1 开启 0 关闭）
-define('MSS_SET_IP_LOGIN_LIMIT',10078);	//设置登陆IP数量限制，0和负数则不限制
-define('MSS_SET_FUND',10079);	//后台设置基金活动
-define('MSS_SET_SMALLACTIVITY',10080);	//后台设置基金活动
-define('MSS_SET_GUILD_LEADER',10081);	//后台设置行会会长
-define('MSS_ACTIVE_BAG_CHANGED',10082);	//活动背包数据改变
-define('MSS_SPEED_DEVIATION_TIME',10083);	//设置校验加速的误差时间 单位毫秒
-define('MSS_SYSREWARDMAIL',10084);	//系统奖励邮件		参数：MaileType|uActorId|szTitle|szDesc|type,id,count,bin;type,id,count,bin;type,id,count,bin; OK
-define('MSS_OPERATION_ACT',10085);	//运营活动			参数：str  OK
-define('MSS_DEL_OPERATION_ACT',10086);	//删除运营活动		参数：cmd_id|act_id|cmd_flag
+define('MSS_SET_NEWCHECK_CHECK',10068); //设置新检测参数 字符串：参数类型(1:是否为肯定在加速百分比上限参数 2:是否为肯定在加速百分比下限参数 3:可能在加速百分比上限参数 4:误判百分比下限)|参数值(1到100的数值)
+define('MSS_SET_LOGIN_TOOLS',10069);    //使用登陆器登陆杀怪奖励倍率 字符串：奖励倍率(30：表示百分之30)
+define('MSS_SET_THOUSANDSERVER',10070); //后台开启千服活动 字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数
+define('MSS_CLOSE_THOUSAND',10071); //关闭千服活动 字符串：无
+define('MSS_SUPER_BUYING',10072);   //开启超值抢购 字符串：开始时间(格式：2013-09-25-16:20:21)|只需天数
+define('MSS_THANKS_ACTIVITY',10073);    //开启惠民消费活动 字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|开启的活动(111111 从左到右依次表示:坐骑提升,法宝猎魔,翅膀羽化,幻武启灵,足迹升阶,经验提升 如果某位为0表示关闭)
+define('MSS_OPEN_MYGICSHOP',10074); //定时开启神秘商店 字符串：开始时间(格式：2013-09-25-16:20:21)|开启天数
+define('MSS_OPEN_DOUBLEEXP',10075); //定时开启双倍经验 字符串：开始时间(格式：2013-09-25-16:20:21)|开启小时|倍率(1：1倍 2：2倍 )
+define('MSS_OPEN_FCM',10076);   //后台开启防沉迷
+define('MSS_OPEN_DISCOUNTSITEM',10077); //开启或关闭特价商品翻倍 字符串：开启或关闭（1 开启 0 关闭）
+define('MSS_SET_IP_LOGIN_LIMIT',10078); //设置登陆IP数量限制，0和负数则不限制
+define('MSS_SET_FUND',10079);   //后台设置基金活动
+define('MSS_SET_SMALLACTIVITY',10080);  //后台设置基金活动
+define('MSS_SET_GUILD_LEADER',10081);   //后台设置行会会长
+define('MSS_ACTIVE_BAG_CHANGED',10082); //活动背包数据改变
+define('MSS_SPEED_DEVIATION_TIME',10083);   //设置校验加速的误差时间 单位毫秒
+define('MSS_SYSREWARDMAIL',10084);  //系统奖励邮件        参数：MaileType|uActorId|szTitle|szDesc|type,id,count,bin;type,id,count,bin;type,id,count,bin; OK
+define('MSS_OPERATION_ACT',10085);  //运营活动          参数：str  OK
+define('MSS_DEL_OPERATION_ACT',10086);  //删除运营活动        参数：cmd_id|act_id|cmd_flag
 define('MSS_SHUTUP_BYID',10087);   //禁言,参数: 角色ID|时间(结束的时间点)
 define('MSS_RELEASESHUTUP_BYID',10088);   //解禁言,参数: 角色ID
 define('MSS_REGAIN_ACTOR',10089);   //恢复角色,参数: 角色ID
-define('MSS_SET_GUILD_NOTICE',10090);	//后台设置行会公告,参数： 行会ID|行会公告内容
-define('MSS_SET_CORSS_SWITCH',10091);	//后台设置跨服入口,参数： 开启或关闭(1开启 0关闭)
-define('MSS_SET_USER_TYPE',10092);	//后台设置内玩参数,参数： 角色ID|是否内玩(1是 0否)
-define('MSS_SET_TRADE_BAN',10093);	//后台设置交易封禁,参数： 角色ID|是否封禁(1是 0否)
-define('MSS_SET_ACTIVITY_STATUS',10094);	//后台设置日常活动,参数：活动ID|开启或关闭(1开 0关)
-define('MSS_SET_EAT_CHICKEN_LIMIT',10095);	//后台设置吃鸡活动，参数：开启所需限制
+define('MSS_SET_GUILD_NOTICE',10090);   //后台设置行会公告,参数： 行会ID|行会公告内容
+define('MSS_SET_CORSS_SWITCH',10091);   //后台设置跨服入口,参数： 开启或关闭(1开启 0关闭)
+define('MSS_SET_USER_TYPE',10092);  //后台设置内玩参数,参数： 角色ID|是否内玩(1是 0否)
+define('MSS_SET_TRADE_BAN',10093);  //后台设置交易封禁,参数： 角色ID|是否封禁(1是 0否)
+define('MSS_SET_ACTIVITY_STATUS',10094);    //后台设置日常活动,参数：活动ID|开启或关闭(1开 0关)
+define('MSS_SET_EAT_CHICKEN_LIMIT',10095);  //后台设置吃鸡活动，参数：开启所需限制
 define('MSS_PAY',10096);  //后台模拟充值
-define('MSS_DAILY_RECHARGE',10100);	//后台每日充值	字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
-define('MSS_TIME_LIMIT_SHOPPING',10101);	//后台限时商品	字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
-define('MSS_TOTAL_RECHARGE',10102);	//后台累积充值	字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
-define('MSS_TOTAL_COST',10103);	//后台累积消费	字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
-define('MSS_SET_SESSIONCMD',19999);	//转发后台消息给会话服 字符串
+define('MSS_DAILY_RECHARGE',10100); //后台每日充值    字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
+define('MSS_TIME_LIMIT_SHOPPING',10101);    //后台限时商品    字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
+define('MSS_TOTAL_RECHARGE',10102); //后台累积充值    字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
+define('MSS_TOTAL_COST',10103); //后台累积消费    字符串：开始时间(格式：2013-09-25-16:20:21)|持续天数|方案
+define('MSS_SET_SESSIONCMD',19999); //转发后台消息给会话服 字符串
 
 
 
@@ -199,7 +199,7 @@ function get_client_ip() {
 }
 
 function logMsg($str){
-        //preg_match_all("/.+gameback/",getcwd(),$matches,PREG_PATTERN_ORDER );
-        //file_put_contents( $matches[0][0] . "/log/game.txt","[". date("Y-m-d H:i:s") . "]". $str ."\r\n" ,FILE_APPEND );
-		file_put_contents(WWW_PATH. "/log/game.txt","[". date("Y-m-d H:i:s") . "]". $str ."\r\n" ,FILE_APPEND );
+    //preg_match_all("/.+gameback/",getcwd(),$matches,PREG_PATTERN_ORDER );
+    //file_put_contents( $matches[0][0] . "/log/game.txt","[". date("Y-m-d H:i:s") . "]". $str ."\r\n" ,FILE_APPEND );
+    file_put_contents(WWW_PATH. "/log/game.txt","[". date("Y-m-d H:i:s") . "]". $str ."\r\n" ,FILE_APPEND );
 }

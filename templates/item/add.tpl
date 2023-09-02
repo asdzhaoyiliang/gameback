@@ -1,10 +1,10 @@
 <div style="color: #ff0000;">
     <p>备注</p>
     <p>1、道具ID是唯一的。如果在增加时检测到道具ID已存在，前面的将被后面的替换掉</p>
-    <p>2、一行一个道具，格式为：道具id,道具名称。如：16003,重弩手</p>
+    <p>2、一行一个道具，格式为：道具type,道具id,道具名称。如：1,3,魔法币</p>
 </div>
 <br/>
-<textarea style="width: 600px;height: 400px;" name="content"><{if $itemInfo.item_id != ''}><{$itemInfo.item_id}>,<{$itemInfo.item_name}><{/if}></textarea>
+<textarea style="width: 600px;height: 400px;" name="content"><{if $itemInfo.item_id != ''}><{$itemInfo.item_type}>,<{$itemInfo.item_id}>,<{$itemInfo.item_name}><{/if}></textarea>
 <br/><br/>
 <button  class='datatable_search_button gbutton' id="item_submit">提交</button>
 

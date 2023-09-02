@@ -34,15 +34,16 @@ class ItemController extends Controller{
             ['type'=>'input','title' =>'道具名称'],
         ];
         $showFields = [
+            ['title' => 'ID','sortable'=>true],
             ['title' => '道具ID','sortable'=>true],
             ['title' => '道具名称','sortable'=>true],
             ['title' => '操作'],
         ];
         $ajaxSource = 'admin.php?ctrl=item&act=dataTablesRespond';
         $js =<<<END
-        function del(item_id){
+        function del(id){
             if(confirm("确定删除该道具")){
-                $.post("admin.php?ctrl=item&act=del",{item_id:item_id},function(msg){
+                $.post("admin.php?ctrl=item&act=del",{id:id},function(msg){
                     $("#tabs").tabs().tabs("load",0);
                 })
             }
@@ -78,9 +79,10 @@ END;
             foreach($res as $val){
                 $handle  = "<button onclick='edit({$val['item_id']})' class='datatable_search_button gbutton' href='javascript:void(0)'>编辑</button>";
                 $handle .= "&nbsp;&nbsp;";
-                $handle .= "<button onclick='del({$val['item_id']})' class='datatable_search_button gbutton'  href='javascript:void(0)'>删除</button>";
+                $handle .= "<button onclick='del({$val['id']})' class='datatable_search_button gbutton'  href='javascript:void(0)'>删除</button>";
 
                 $aaData[]=array(
+                    $val['id'],
                     $val['item_id'],
                     $val['item_name'],
                     $handle
@@ -119,9 +121,9 @@ END;
     public function submit(){
         switch( $_REQUEST['type'] ){
             case 'del':
-                !$_POST['item_id'] && exit("error");
-                $this->Model->handle('delete', array('where'=>"item_id={$_POST['item_id'] }"), 'items');
-                $this->LogModel->logAdd("删除道具:{$_POST['item_id']}");
+                !$_POST['id'] && exit("error");
+                $this->Model->handle('delete', array('where'=>"id={$_POST['id'] }"), 'items');
+                $this->LogModel->logAdd("删除道具:{$_POST['id']}");
                 break;
             case 'add':
                 if(!$_POST['con']) exit("内容为空");
@@ -134,7 +136,7 @@ END;
                     $item_id = intval($item['0']);
                     if(!$item_id) continue;//如果道具id不为整数，跳出
 
-                    $data = array("item_id"=>$item[0],'item_name'=>$item[1]);
+                    $data = array("item_type"=>$item[0],"item_id"=>$item[1],'item_name'=>$item[2]);
                     $this->Model->handle('replace', array('data'=>$data), 'items');
                 }
                 echo 1;

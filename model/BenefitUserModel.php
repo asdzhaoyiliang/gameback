@@ -1,6 +1,6 @@
 <?php
 /**
- * Class ServerModel
+ * Class BenefitUserModel
  *
  * @copyright Copyright&copy;2015, ZJL
  * @author ZJL
@@ -9,9 +9,9 @@
  */
 
 
-class ServerModel extends Model{
+class BenefitUserModel extends Model{
 
-    static $zxServerState = array(
+    static $zxBenefitState = array(
             0=>11,
             1=>4,
             2=>3,
@@ -21,25 +21,21 @@ class ServerModel extends Model{
             6=>11,
         );
 
-    //服务器列表
+    //福利列表
     public function getData($conditon) {
-        $res = $this->handle('getList', $conditon, 'server');
+        $res = $this->handle('getList', $conditon, 'benefit_user');
 
         if($res){
             foreach($res as $row){
-                $t = strtotime($row['open_time']);
-                if (!$t || $t < 0) $t = null;
                 $option = <<< END
-            <a href="javascript:void(0)" onclick="server_edit({$row['server_id']})">编辑</a>     |
-            <a href="javascript:void(0)" onclick="server_delete({$row['server_id']})">删除</a>
+            <a href="javascript:void(0)" onclick="benefituser_delete({$row['id']})">删除</a>
 END;
                 $aaData[] = [
                     $row['server_id'],
-                    $row['group_id'],
-		  $row['name'],
-                    $row['channel'],
-                    $row['server_ip'],
-                    $row['server_port'],
+                    $row['user_id'],
+                    $row['reason'],
+                    $row['benefit_id'],
+                    $row['benefit_name'],
                     $option,
                 ];
             }
@@ -48,12 +44,12 @@ END;
     }
 
 
-    public function getOneById($serverId,$fields="*"){
+    public function getOneById($benefitId,$fields="*"){
         $condition = array(
             'fields' => $fields,
-            "where"  => "server_id={$serverId}",
+            "where"  => "benefit_id={$benefitId}",
         );
-        return $this->handle('getOne', $condition, 'server');
+        return $this->handle('getOne', $condition, 'benefit');
     }
 
 
@@ -78,8 +74,8 @@ END;
             'ErrorCode'=>0,
             'msg'=>'success',
             'data'=>array(
-                'all'=>$this -> server_list_for_client($actor_info),
-                'my' =>$this -> four_recently_login_server($actor_info)
+                'all'=>$this -> benefit_list_for_client($actor_info),
+                'my' =>$this -> four_recently_login_benefit($actor_info)
             ),
             'actor_info'=>$actor_info
         );
@@ -87,26 +83,26 @@ END;
     }
 
     //获取全服列表给客户端
-   public function get_all_serverlist($param){
+   public function get_all_benefitlist($param){
         $channel = $param['channel'];
         $t = time();
         //$where = "channel = '{$channel}' and UNIX_TIMESTAMP(open_time) <= '{$t}'";
         $where = "UNIX_TIMESTAMP(open_time) <= '{$t}'";
         $condition = array(
             'where'=> $where,
-            'fields'=>"server_id,server_ip,server_port,name,open_time,merge_id",
-            'order' => 'server_id ASC'
+            'fields'=>"benefit_id,benefit_ip,benefit_port,name,open_time,merge_id",
+            'order' => 'benefit_id ASC'
         );
-        $list = $this->handle('getList', $condition, 'server');
+        $list = $this->handle('getList', $condition, 'benefit');
         //var_dump($list);
         return $list;
    }
 
 
     //获取全服列表给客户端
-   public function server_list_for_client($param){
-        if ($_SESSION['server_list_for_client'])
-            return $_SESSION['server_list_for_client'];
+   public function benefit_list_for_client($param){
+        if ($_SESSION['benefit_list_for_client'])
+            return $_SESSION['benefit_list_for_client'];
 
         $where = "status != 0 ";
 
@@ -128,19 +124,19 @@ END;
 
         $condition = array(
             'where'=> $where,
-            'fields'=>"server_id,server_ip,server_port,name,if(`status`=5,4,`status`)  as `status`,if(`status` = 5,1,0)  as `isNew`",
-            'order' => 'server_id ASC'
+            'fields'=>"benefit_id,benefit_ip,benefit_port,name,if(`status`=5,4,`status`)  as `status`,if(`status` = 5,1,0)  as `isNew`",
+            'order' => 'benefit_id ASC'
         );
-        $list = $this->handle('getList', $condition, 'server');
-        $_SESSION['server_list_for_client'] = $list;
+        $list = $this->handle('getList', $condition, 'benefit');
+        $_SESSION['benefit_list_for_client'] = $list;
 
         return $list;
    }
 
     //获取用户最近登录过的4个服务器
-   public function four_recently_login_server($param){
+   public function four_recently_login_benefit($param){
         $account = $param['account'];
-        $tmp = "four_recently_login_server_of_" . $account;
+        $tmp = "four_recently_login_benefit_of_" . $account;
 
         if ($_SESSION[$tmp]) return $_SESSION[$tmp];
 
@@ -153,9 +149,9 @@ END;
             $where .= " AND s.channel='{$channel}'";
         }
 
-        $sql = "SELECT {$fields} FROM bg_server AS s
-                INNER JOIN bg_server_login AS sl
-                ON sl.serverid=s.server_id
+        $sql = "SELECT {$fields} FROM bg_benefit AS s
+                INNER JOIN bg_benefit_login AS sl
+                ON sl.benefitid=s.benefit_id
                 WHERE {$where}  ORDER BY sl.logdate DESC";
         $foo = $this->handle('find', array('sql'=>$sql));
         if ($foo) {
@@ -198,10 +194,10 @@ END;
    public function saveLogin($param){
 
         //处理参数
-        $serverid = $_REQUEST['serverid'];
+        $benefitid = $_REQUEST['benefitid'];
         $account  = $param['account'];
         $datetime = date('Y-m-d H:i:s',time());
-        $passwd = md5( $account. $serverid . time() . rand(100,999));
+        $passwd = md5( $account. $benefitid . time() . rand(100,999));
         $ip = get_client_ip();
 		$payflag = 1;
 		$package = $_REQUEST['packname'];
@@ -214,15 +210,15 @@ END;
 			$payflag = $packdb['name'];
 		}
 		
-        if( !$account || !$serverid) exit(json_encode(array('ErrorCode'=>2,'msg'=>'invalid parameter')));
+        if( !$account || !$benefitid) exit(json_encode(array('ErrorCode'=>2,'msg'=>'invalid parameter')));
 
         //根据服务器id获取服务器信息
         $condition = array(
-            "where"  => "server_id={$serverid}",
+            "where"  => "benefit_id={$benefitid}",
             "fields" => "mysql_host,mysql_user,mysql_passwd,actor_table,mysql_port"
         );
-        $db = $this->handle('getOne',$condition,'server');
-        if( ! $db ) exit(json_encode(array('ErrorCode'=>4, 'msg'=>"invalid serverid")));
+        $db = $this->handle('getOne',$condition,'benefit');
+        if( ! $db ) exit(json_encode(array('ErrorCode'=>4, 'msg'=>"invalid benefitid")));
 
         //更改用户密码
         $mysql = Util::getMysqlCon($db['mysql_host'],$db['mysql_user'],$db['mysql_passwd'],$db['actor_table'],$db['mysql_port']);
@@ -237,11 +233,11 @@ END;
         };
 
         //记录用户登录的服务器
-        $insert = array('account' => $account, 'logdate' => time(), 'serverid' =>$serverid);
-        $this -> handle('replace', array('data'=>$insert), 'server_login');
+        $insert = array('account' => $account, 'logdate' => time(), 'benefitid' =>$benefitid);
+        $this -> handle('replace', array('data'=>$insert), 'benefit_login');
 
         //保存用户最近登录过的4个服务器到session
-        $this -> four_recently_login_server(array('account' => $account));
+        $this -> four_recently_login_benefit(array('account' => $account));
 
         //返回数据给客户端
         $msg = array('ErrorCode'=>0, 'msg'=>"success", 'data'=>array('account'=>$account, 'passwd'=>$passwd,'payflag'=>$payflag));
@@ -249,5 +245,5 @@ END;
     }
     //----------------------------------------------------------sdk
 }
-/* End of file ServerModel.php */
-/* Location: ./model/ServerModel.php */
+/* End of file BenefitUserModel.php */
+/* Location: ./model/BenefitUserModel.php */

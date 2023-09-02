@@ -24,6 +24,147 @@ class Util {
         @file_put_contents($logfile, $msg, FILE_APPEND);
     }
 
+    public static function requestGame()
+    {
+        $gameUrl = "http://10.10.10.2:9001/?Handler=Kick&RoleGuid=2020495863936745472&GroupId=2&ZoneId=3&sign=1";
+
+        $this_header = array(
+            "content-type: application/x-www-form-urlencoded; 
+            charset=UTF-8"
+        );
+        self::log($gameUrl);
+        $ch = curl_init();
+        curl_setopt($ch,CURLOPT_HTTPHEADER,$this_header);
+        curl_setopt($ch, CURLOPT_URL, $gameUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_ENCODING, 'gzip');
+        $ouput = curl_exec($ch);
+        curl_close($ch);
+        $ouput = mb_convert_encoding($ouput, 'UTF-8','GB2312');
+        self::log($ouput);
+
+        return $ouput;
+    }
+
+    public static function requestGameForKick($ip,$port,$groupId,$zoneId,$roleGuid)
+    {
+        $gameUrl = "http://$ip:$port/?Handler=Kick&GroupId=$groupId&ZoneId=$zoneId&sign=1&RoleGuid=$roleGuid";
+
+        $this_header = array(
+            "content-type: application/x-www-form-urlencoded; 
+            charset=UTF-8"
+        );
+        self::log($gameUrl);
+        $ch = curl_init();
+        curl_setopt($ch,CURLOPT_HTTPHEADER,$this_header);
+        curl_setopt($ch, CURLOPT_URL, $gameUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_ENCODING, 'gzip');
+        $ouput = curl_exec($ch);
+        curl_close($ch);
+        $ouput = mb_convert_encoding($ouput, 'UTF-8','GB2312');
+        self::log($ouput);
+
+        return $ouput;
+    }
+
+
+    public static function requestGameForBenefit($ip,$port,$groupId,$zoneId,$benefitId,$firstMailId,$commonMailId,$cycle,$day,$sendTime,$roleGuid=0,$addRole=0)
+    {
+        $gameUrl = "http://$ip:$port/?Handler=Benefit&GroupId=$groupId&ZoneId=$zoneId&sign=1&BenefitId=$benefitId&FirstMailId=$firstMailId&CommonMailId=$commonMailId&Cycle=$cycle&Day=$day&SendTime=$sendTime&RoleGuid=$roleGuid&AddRole=$addRole";
+
+        $this_header = array(
+            "content-type: application/x-www-form-urlencoded; 
+            charset=UTF-8"
+        );
+        self::log($gameUrl);
+        $ch = curl_init();
+        curl_setopt($ch,CURLOPT_HTTPHEADER,$this_header);
+        curl_setopt($ch, CURLOPT_URL, $gameUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_ENCODING, 'gzip');
+        $ouput = curl_exec($ch);
+        curl_close($ch);
+        $ouput = mb_convert_encoding($ouput, 'UTF-8','GB2312');
+        self::log($ouput);
+
+        return $ouput;
+    }
+
+    public static function requestGameForUser($ip,$port,$groupId,$zoneId,$roleGuid,$isDetail=0)
+    {
+        $gameUrl = "http://$ip:$port/?Handler=User&RoleGuid=$roleGuid&GroupId=$groupId&ZoneId=$zoneId&sign=1&IsDetail=$isDetail";
+
+        $this_header = array(
+            "content-type: application/x-www-form-urlencoded; 
+            charset=UTF-8"
+        );
+        self::log($gameUrl);
+        $ch = curl_init();
+        curl_setopt($ch,CURLOPT_HTTPHEADER,$this_header);
+        curl_setopt($ch, CURLOPT_URL, $gameUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_ENCODING, 'gzip');
+        $ouput = curl_exec($ch);
+        curl_close($ch);
+//        $ouput = mb_convert_encoding($ouput, 'UTF-8','GB2312');
+        self::log($ouput);
+        $res = json_decode($ouput, true);
+
+        return $res['Data'];
+    }
+
+    public static function requestGameForUserDetail($ip,$port,$groupId,$zoneId,$roleGuid)
+    {
+        $gameUrl = "http://$ip:$port/?Handler=User&RoleGuid=$roleGuid&GroupId=$groupId&ZoneId=$zoneId&sign=1";
+
+        $this_header = array(
+            "content-type: application/x-www-form-urlencoded; 
+            charset=UTF-8"
+        );
+        self::log($gameUrl);
+        $ch = curl_init();
+        curl_setopt($ch,CURLOPT_HTTPHEADER,$this_header);
+        curl_setopt($ch, CURLOPT_URL, $gameUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_ENCODING, 'gzip');
+        $ouput = curl_exec($ch);
+        self::log($ouput);
+        curl_close($ch);
+//        $ouput = mb_convert_encoding($ouput, 'UTF-8','GB2312');
+        self::log($ouput);
+        $res = json_decode($ouput, true);
+
+        return $res['Data'];
+    }
+
+    public static function requestGameForMail($ip,$port,$groupId,$zoneId,$mailId,$reward,$param,$limitRoleGuids,$startTime,$endTime)
+    {
+        $gameUrl = "http://$ip:$port/?Handler=Mail&GroupId=$groupId&ZoneId=$zoneId&sign=1&MailId=$mailId&reward=$reward&param=$param&LimitRoleGuids=$limitRoleGuids&StartTime=$startTime&EndTime=$endTime";
+
+        $this_header = array(
+            "content-type: application/x-www-form-urlencoded; 
+            charset=UTF-8"
+        );
+        self::log($gameUrl);
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $this_header);
+        curl_setopt($ch, CURLOPT_URL, $gameUrl);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+        curl_setopt($ch, CURLOPT_ENCODING, 'gzip');
+        $ouput = curl_exec($ch);
+        curl_close($ch);
+        $ouput = mb_convert_encoding($ouput, 'UTF-8', 'GB2312');
+        self::log($ouput);
+
+        return $ouput;
+    }
     /******************************************************************************************************************/
     /************************************************ 导出excel ********************************************************/
     /******************************************************************************************************************/

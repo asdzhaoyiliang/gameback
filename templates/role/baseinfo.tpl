@@ -5,49 +5,44 @@
     <table border="0" id="baseinfo" >
         <tr>
             <td width="10%">角色ID</td>
-            <td width="20%" id="role_id"><{$content.actorid}></td>
+            <td width="20%" id="role_id"><{$content.RoleGuid}></td>
             <td width="10%">账号</td>
-            <td width="20%" id="account"><{$content.accountname}></td>
+            <td width="20%" id="account"><{$content.UserId}></td>
         </tr>
         <tr>
             <td width="10%">角色名</td>
-            <td width="20%"><{$content.actorname}></td>
+            <td width="20%"><{$content.Name}></td>
             <td width="10%">等级</td>
-            <td width="20%"><{$content.level}></td>
+            <td width="20%"><{$content.Level}></td>
         </tr>
         <tr>
             <td width="10%">创号时间</td>
-            <td width="20%"><{$content.createtime}></td>
+            <td width="20%"><{$content.Register}></td>
             <td width="10%">性别</td>
-            <td width="20%"><{if $content.sex == 1}>男<{else}>女<{/if}></td>
+            <td width="20%"><{if $content.Sex == 1}>男<{else}>女<{/if}></td>
         </tr>
         <tr>
             <td width="10%">战斗力</td>
-            <td width="20%"><{$content.fightvalue}></td>
-            <td width="10%">帮派</td>
-            <td width="20%"><{$content.guildid}></td>
+            <td width="20%"><{$content.CombatEffectiveness}></td>
+            <td width="10%">军衔</td>
+            <td width="20%"><{$content.MilitaryRank}></td>
         </tr>
         <tr>
 
-            <td width="10%">经验值</td>
-            <td width="20%"><{$content.exp}></td>
+            <td width="10%">魔法币</td>
+            <td width="20%"><{$content.MagicCoin}></td>
 
-            <td width="10%">充值元宝</td>
-            <td width="20%"><{$content.recharge}></td>
+            <td width="10%">钻石加绑钻</td>
+            <td width="20%"><{$content.Diamond}></td>
 
         </tr>
         <tr>
-            <td width="10%">绑定金钱</td>
-            <td width="20%"><{$content.bindcoin}></td>
-            <td width="10%">非绑定金钱</td>
-            <td width="20%"><{$content.nonbindcoin}></td>
+
+            <td width="10%">创号时间</td>
+            <td width="20%"><{$content.LastLogin}></td>
+
         </tr>
-        <tr>
-            <td width="10%">绑定元宝</td>
-            <td width="20%"><{$content.bindyuanbao}></td>
-            <td width="10%">非绑定元宝</td>
-            <td width="20%"><{$content.nonbindyuanbao}></td>
-        </tr>
+
     </table>
 </div>
 

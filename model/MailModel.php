@@ -42,13 +42,17 @@ class MailModel extends Model{
                 $handle .= "&nbsp;&nbsp;";
                 $handle .= "<button onclick='checkMail({$val['id']},false)' class='datatable_search_button gbutton' href='javascript:void(0)'>审核不通过</button>";
 
-                $content = unserialize($val['data']);
+                $content = json_decode($val['data'], true);
                 $foo = $content['condition'] == 1 ? '角色ID' : ($content['condition'] == 2 ?  '角色名字' : '账号');
                 $aaData[]=array(
                     $val['id'],
                     $val['serverid'] ? $val['serverid'] : $content['serverid'],
                     $content['content'],
-                    $type=='server_mail' ? "等级≥{$content['limit_level']}" : $content['rolelist']."($foo)",
+//                    $type=='server_mail' ? "等级≥{$content['limit_level']}" : $content['rolelist']."($foo)",
+                    $content['reason'],
+                    $content['limit_role_guids'],
+                    $content['start_time'],
+                    $content['end_time'],
                     $val['item'],
                     $val['name'],
                     $val['logdate'],

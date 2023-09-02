@@ -16,18 +16,18 @@ class RoleController extends Controller {
         $tabs = array(
             array('title' => "玩家列表", 'url' => "admin.php?ctrl=role&act=dataTablesRequest"),
             array('title' => '基本信息', 'url' => 'admin.php?ctrl=role&act=show'),
-            array('title' => '装备', 'url' => 'admin.php?ctrl=role&act=show'),
-            array('title' => '技能', 'url' => 'admin.php?ctrl=role&act=show'),
-            array('title' => '背包物品', 'url' => 'admin.php?ctrl=role&act=show'),
+//            array('title' => '装备', 'url' => 'admin.php?ctrl=role&act=show'),
+//            array('title' => '技能', 'url' => 'admin.php?ctrl=role&act=show'),
+//            array('title' => '背包物品', 'url' => 'admin.php?ctrl=role&act=show'),
             //array('title' => '宠物', 'url' => 'admin.php?ctrl=role&act=show'),
-            array('title' => '经济统计', 'url' => 'admin.php?ctrl=role&act=show'),
+//            array('title' => '经济统计', 'url' => 'admin.php?ctrl=role&act=show'),
         );
         $this->themeTabs($tabs);
     }
 
     //玩家列表
     public function dataTablesRequest() {
-        $type = array('角色名', '角色ID', '账号', '账号ID');
+        $type = array('角色ID');
         $searchFields = array(
             array('type' => 'server', 'value' => $this->serverList(false)),
             array('title' => '', 'type' => 'select', 'value' => $type),
@@ -35,15 +35,15 @@ class RoleController extends Controller {
         );
 
         $showFields = array(
-            'id' => array('title' => '角色ID', 'width' => '110px', 'sortable' => true),
+            'id' => array('title' => '角色ID', 'width' => '130px', 'sortable' => true),
             'name' => array('title' => '角色名'),
-            'accountid' => array('title' => '账户ID'),
-            'accountname' => array('title' => '账户名'),
-            'level' => array('title' => '等级', 'sortable' => true),
-            'job' => array('title' => '职业'),
+            'userid' => array('title' => '账号id'),
+            'serverid' => array('title' => '服务器id'),
             'sex' => array('title' => '性别'),
-            'gold' => array('title' => '充值元宝', 'sortable' => true),
-            'handle' => array('title' => '操作'),
+            'online' => array('title' => '在线状态'),
+            'registertime' => array('title' => '注册时间'),
+            'lastlogin' => array('title' => '最后登录时间'),
+            'handle' => array('title' => '操作')
         );
         $ajaxSource = "admin.php?ctrl=role&act=dataTablesRespond";
 
@@ -61,13 +61,13 @@ class RoleController extends Controller {
                 $('#tabs').tabs('select', 1)
             }
 
-            function action(type,id){
+            function action(type,id,serverid){
                 switch(type){
                     case 'kick': //踢玩家下线
 					case 'restore': //恢复账号
                     case 'releaseshutup'://解除禁言
                         if(confirm("确定操作吗？")){
-                            $.post("admin.php?ctrl=role&act=ban",{type:type,id:id},function(msg){
+                            $.post("admin.php?ctrl=role&act=ban",{type:type,id:id,serverid:serverid},function(msg){
                                 alert(msg)
                             })
                         }
@@ -105,90 +105,58 @@ class RoleController extends Controller {
 END;
         $this->themeDataTables($searchFields, $showFields, $ajaxSource, $otherData, true);
     }
-    public function dataTablesRespond() {
+    public function dataTablesRespond()
+    {
         $json_arr = array(
-            'sEcho'                => intval($_GET['sEcho']),
-            'iTotalRecords'        => 0,
+            'sEcho' => intval($_GET['sEcho']),
+            'iTotalRecords' => 0,
             "iTotalDisplayRecords" => 0,
-            'aaData'               => array()
+            'aaData' => array()
         );
 
-        $server_id= $_GET['sSearch_0'];
+        $server_id = $_GET['sSearch_0'];
         $this->validateServer($server_id);
 
-        $server= (new ServerModel())->getOneById($server_id);
-        if ( ! $server ) exit( json_encode($json_arr) );
+        $ser = (new ServerModel())->getOneById($server_id);
+        if (!$ser) exit(json_encode($json_arr));
 
+        $aaData = array();
+        if ($_GET["sSearch_2"] != "") {
+            $data = Util::requestGameForUser($ser['server_ip'], $ser['server_port'], $ser['group_id'], $ser['server_id'], $_GET["sSearch_2"]);
+            if ($data != "") {
+//                $data = preg_replace('/"RoleGuid":(\d{1,})./', '"RoleGuid":"\\1",', $data);
+//                $data = preg_replace('/"UserId":(\d{1,})./', '"UserId":"\\1",', $data);
 
-        if(trim($_GET['sSearch_2'])){
-            switch($_GET['sSearch_1']){
-                case 0:
-                    $where = "actorname='".$_GET['sSearch_2']."'";
-                    break;
-                case 1:
-                    $where = "actorid=".$_GET['sSearch_2'];
-                    break;
-                case 2:
-                    $where = "accountname='".$_GET['sSearch_2']."'";
-                    break;
-                case 3:
-                    $where = "accountid=".$_GET['sSearch_2'];
-                    break;
+                $role = json_decode($data, true);
+
+                $handle = "";
+                $handle .= '<a onclick="action(\'shutup\',' . $role['RoleGuid'] . ')" style="color:red;text-decoration: underline;cursor:pointer">禁言 </a>&nbsp;';
+                $handle .= '<a onclick="action(\'releaseshutup\',' . $role['RoleGuid'] . ')" style="color:red;text-decoration: underline;cursor:pointer">解禁</a><br/>';
+                $handle .= '<a onclick="action(\'kick\',' . $role['RoleGuid'] . ',' . $ser['server_id'] . ')" style="color:red;text-decoration: underline;cursor:pointer">踢号</a>&nbsp;';
+//            $handle .= '<a onclick="action(\'restore\','.$role['RoleGuid'].')" style="color:red;text-decoration: underline;cursor:pointer">恢复</a>&nbsp;';
+                //$handle .= '<a onclick="action(\'forbidchat\',\''.$row['actorname'].'\')" style="color:red;text-decoration: underline;cursor:pointer">禁聊天 </a>&nbsp;';
+                //$handle .= '<a onclick="action(\'zyzy\',\''.$row['actorname'].'\')" style="color:red;text-decoration: underline;cursor:pointer">自言自语 </a><br/>';
+                //$handle .= '<a onclick="action(\'forbidmail\',\''.$row['actorname'].'\')" style="color:red;text-decoration: underline;cursor:pointer">禁发邮件</a>';
+
+                $roleGuid = $role["RoleGuid"]."";
+                $aaData[] = array(
+                    $role["RoleGuid"],
+                    "<span style='cursor: pointer; border-bottom: 1px dashed blue' onclick=\"goto('{$roleGuid}')\">{$role['Name']}</span>",
+                    $role["UserId"],
+                    $ser['server_id'],
+                    $role['Sex'] == 1 ? "男" : "女",
+                    $role['IsOnline'] ? "在线" : "离线",
+                    date("Y-m-d H:i:s", $role['RegisterTime']),
+                    date("Y-m-d H:i:s", $role['LastTime']),
+                    $handle
+                );
             }
         }
-        $order = "actorid ".$_GET['sSortDir_0'];
-        $limit = intval($_GET['iDisplayStart']).",".intval($_GET['iDisplayLength']);
-        $fields = "actorid,actorname,accountid,accountname,level,job,sex,bindyuanbao,nonbindyuanbao";
-
-
-        $sql = "SELECT {$fields} FROM `actors`";
-        $where && $sql .= " WHERE $where";
-        $order && $sql .= " ORDER BY $order";
-        $limit && $sql .= " LIMIT $limit";
-
-        $mysql = Util::getMysqlCon($server['mysql_host'],$server['mysql_user'],$server['mysql_passwd'],$server['actor_table'],$server['mysql_port']);
-        $query = $mysql->query($sql);
-        while($row = $query->fetch_assoc()){
-            $handle = "";
-            $handle .= '<a onclick="action(\'shutup\','.$row['actorid'].')" style="color:red;text-decoration: underline;cursor:pointer">禁言 </a>&nbsp;';
-            $handle .= '<a onclick="action(\'releaseshutup\','.$row['actorid'].')" style="color:red;text-decoration: underline;cursor:pointer">解禁</a><br/>';
-			$handle .= '<a onclick="action(\'kick\','.$row['actorid'].')" style="color:red;text-decoration: underline;cursor:pointer">封号</a>&nbsp;';
-			$handle .= '<a onclick="action(\'restore\','.$row['actorid'].')" style="color:red;text-decoration: underline;cursor:pointer">恢复</a>&nbsp;';
-            //$handle .= '<a onclick="action(\'forbidchat\',\''.$row['actorname'].'\')" style="color:red;text-decoration: underline;cursor:pointer">禁聊天 </a>&nbsp;';
-            //$handle .= '<a onclick="action(\'zyzy\',\''.$row['actorname'].'\')" style="color:red;text-decoration: underline;cursor:pointer">自言自语 </a><br/>';
-            //$handle .= '<a onclick="action(\'forbidmail\',\''.$row['actorname'].'\')" style="color:red;text-decoration: underline;cursor:pointer">禁发邮件</a>';
-
-            $aaData[]=array(
-                $row['actorid'],
-                "<span style='cursor: pointer; border-bottom: 1px dashed blue' onclick=\"goto({$row['actorid']})\">{$row['actorname']}</span>",
-                $row['accountid'],
-                $row['accountname'],
-                $row['level'],
-                CDict::$job[$row['job']],
-                CDict::$sex[$row['sex']],
-                $row['nonbindyuanbao'],
-                $handle,
-            );
-        }
-
-        $sql = "SELECT COUNT(*) AS count_data FROM  `actors`";
-        $query = $mysql->query($sql);
-        $row = $query->fetch_assoc();
-        $iTotalRecords = $row['count_data'];
-
-        $sql = "SELECT COUNT(*) AS count_data FROM `actors`";
-        $where && $sql .= " WHERE $where";
-        $query = $mysql->query($sql);
-        $row = $query->fetch_assoc();
-        $iTotalDisplayRecords= $row['count_data'];
-
-        $mysql->close();
-
         $json_arr = array(
-            'sEcho'                => intval($_GET['sEcho']),
-            'iTotalRecords'        => $iTotalRecords,
-            "iTotalDisplayRecords" => $iTotalDisplayRecords,
-            'aaData'               => $aaData ? $aaData : array()
+            'sEcho' => intval($_GET['sEcho']),
+            'iTotalRecords' => 0,
+            "iTotalDisplayRecords" => 0,
+            'aaData' => $aaData?:array()
         );
         echo json_encode($json_arr);
     }
@@ -197,82 +165,91 @@ END;
         $role_id = $this->getParam('role_id');
         if (!$role_id) exit('请点击角色名来选定角色');
 
+
         $server_id = $_SESSION['server_id'];
-        $where = "actorid = {$role_id}";
-        $fields = '*';
+        $this->validateServer($server_id);
+
+        $ser = (new ServerModel())->getOneById($server_id);
 
         $type = $this->getParam('type');
         switch($type){
             case 'baseinfo':
-                $content = Util::get_single_data_byMysql('actor','actors',$server_id,$fields,$where,'getOne');
-                break;
-
-            case 'equip':
-                $content = Util::get_single_data_byMysql('actor','actorequipitem',$server_id,$fields,$where);
-                $items = Util::itemsToArray();
-                if($content){
-                    foreach($content as $key=>$row){
-                        $itemId = $row['itemidquastrong']&65535;
-                        $content[$key]['itemId'] = $itemId;
-                        $content[$key]['itemName'] = $items[$itemId];
-                        $content[$key]['qualityLevel'] = ($row['itemidquastrong']>>16)&255;
-                        $content[$key]['strongLevel'] = ($row['itemidquastrong']>>24)&255;
-                        $content[$key]['itemCount'] = $row['itemcountflag']&255;//($row['itemcountflag']>>16)&65535;
-                    }
+                $data = Util::requestGameForUser($ser['server_ip'], $ser['server_port'], $ser['group_id'], $ser['server_id'], $role_id,1);
+                if ($data != "") {
+                    $content = json_decode($data, true);
                 }
+//                $content = Util::get_single_data_byMysql('actor','actors',$server_id,$fields,$where,'getOne');
+            $content["Register"] = date("Y-m-d H:i:s",$content["RegisterTime"]);
+            $content["LastLogin"] = date("Y-m-d H:i:s",$content["LastTime"]);
+
                 break;
 
-            case 'skill':
-                $content = Util::get_single_data_byMysql('actor','skill',$server_id,$fields,$where);
-                foreach($content as $k=>$row){
-                    $content[$k]['skillId'] =  $row['skillidlvmj']&65535;
-                    $content[$k]['skillLevel'] =  ($row['skillidlvmj']>>16)&255;
-                }
-                break;
-
-            case 'package':
-                $fields = "itemguid,itemidquastrong,itemidquastrong,itemidquastrong,itemcountflag,itemtime,itemduration";
-                $content = Util::get_single_data_byMysql('actor','actorbagitem',$server_id,$fields,$where);
-                $items = Util::itemsToArray();
-                if($content){
-                    foreach($content as $key=>$row){
-                        $itemId = $row['itemidquastrong']&65535;
-                        $content[$key]['itemId'] =$itemId ;
-                        $content[$key]['itemName'] = $items[$itemId];
-                        $content[$key]['qualityLevel'] = ($row['itemidquastrong']>>16)&255;
-                        $content[$key]['strongLevel'] = ($row['itemidquastrong']>>24)&255;
-                        $content[$key]['itemCount'] = $row['itemcountflag']&255;//($row['itemcountflag']>>16)&65535;
-                    }
-                }
-                break;
-
-            case 'pet':
-                $content = Util::get_single_data_byMysql('actor','pet',$server_id,$fields,$where);
-                break;
-
-            case 'economy':
-                $where .=" AND serverid=$server_id";
-                $where .=" ORDER BY logdate DESC";
-                //$where .=" LIMIT 0,10";
-                //$field = "logdate,currency,kingdom,amount";
-                $res= (new Model())->handle('getList',array('where'=>$where), 'economy');
-                if($res){
-                    $currency=array('yb'=>'元宝','xb'=>'铜钱','yl'=>'银两','by'=>'绑定元宝');
-                    $kingdom=array('earning'=>'+','expenditure'=>'-');
-                    foreach($res as $val){
-                        $con = json_decode($val['content'], true);
-                        foreach($con as $v){
-                            $content[]=array(
-                                'logdate'=>$val['logdate'],
-                                'currency'=>$currency[$v['currency']],
-                                'kingdom'=>$kingdom[$v['kingdom']],
-                                'amount'=>$v['amount'],
-                            );
-                        }
-
-                    }
-                }
-                break;
+//            case 'equip':
+//                $content = Util::get_single_data_byMysql('actor','actorequipitem',$server_id,$fields,$where);
+//                $items = Util::itemsToArray();
+//                if($content){
+//                    foreach($content as $key=>$row){
+//                        $itemId = $row['itemidquastrong']&65535;
+//                        $content[$key]['itemId'] = $itemId;
+//                        $content[$key]['itemName'] = $items[$itemId];
+//                        $content[$key]['qualityLevel'] = ($row['itemidquastrong']>>16)&255;
+//                        $content[$key]['strongLevel'] = ($row['itemidquastrong']>>24)&255;
+//                        $content[$key]['itemCount'] = $row['itemcountflag']&255;//($row['itemcountflag']>>16)&65535;
+//                    }
+//                }
+//                break;
+//
+//            case 'skill':
+//                $content = Util::get_single_data_byMysql('actor','skill',$server_id,$fields,$where);
+//                foreach($content as $k=>$row){
+//                    $content[$k]['skillId'] =  $row['skillidlvmj']&65535;
+//                    $content[$k]['skillLevel'] =  ($row['skillidlvmj']>>16)&255;
+//                }
+//                break;
+//
+//            case 'package':
+//                $fields = "itemguid,itemidquastrong,itemidquastrong,itemidquastrong,itemcountflag,itemtime,itemduration";
+//                $content = Util::get_single_data_byMysql('actor','actorbagitem',$server_id,$fields,$where);
+//                $items = Util::itemsToArray();
+//                if($content){
+//                    foreach($content as $key=>$row){
+//                        $itemId = $row['itemidquastrong']&65535;
+//                        $content[$key]['itemId'] =$itemId ;
+//                        $content[$key]['itemName'] = $items[$itemId];
+//                        $content[$key]['qualityLevel'] = ($row['itemidquastrong']>>16)&255;
+//                        $content[$key]['strongLevel'] = ($row['itemidquastrong']>>24)&255;
+//                        $content[$key]['itemCount'] = $row['itemcountflag']&255;//($row['itemcountflag']>>16)&65535;
+//                    }
+//                }
+//                break;
+//
+//            case 'pet':
+//                $content = Util::get_single_data_byMysql('actor','pet',$server_id,$fields,$where);
+//                break;
+//
+//            case 'economy':
+//                $where .=" AND serverid=$server_id";
+//                $where .=" ORDER BY logdate DESC";
+//                //$where .=" LIMIT 0,10";
+//                //$field = "logdate,currency,kingdom,amount";
+//                $res= (new Model())->handle('getList',array('where'=>$where), 'economy');
+//                if($res){
+//                    $currency=array('yb'=>'元宝','xb'=>'铜钱','yl'=>'银两','by'=>'绑定元宝');
+//                    $kingdom=array('earning'=>'+','expenditure'=>'-');
+//                    foreach($res as $val){
+//                        $con = json_decode($val['content'], true);
+//                        foreach($con as $v){
+//                            $content[]=array(
+//                                'logdate'=>$val['logdate'],
+//                                'currency'=>$currency[$v['currency']],
+//                                'kingdom'=>$kingdom[$v['kingdom']],
+//                                'amount'=>$v['amount'],
+//                            );
+//                        }
+//
+//                    }
+//                }
+//                break;
         }
 
         $this->smarty->assign('content',$content);
@@ -282,6 +259,7 @@ END;
     public function ban(){
         $param1 = $_POST['type'];
         $param2 = $_POST['id'];
+        $server_id = $_POST['serverid'];
         $param3 = isset($_POST['time']) ? $_POST['time'] : '';
 		$date = date("Y-m-d H:i:s");
 		$cmdid = 0;
@@ -294,8 +272,15 @@ END;
 		}elseif ($param1 == "releaseshutup"){
 			$cmdid = MSS_RELEASESHUTUP_BYID;
 		}elseif($param1 == "kick"){
-			$cmdid = MSS_KICKPLAY;
-			$strcom = $param2;
+
+            //发送请求给目标服务器
+            $ser = (new ServerModel())->getOneById($server_id);
+			$res = Util::requestGameForKick($ser['server_ip'], $ser['server_port'], $ser['group_id'], $ser['server_id'],$param2);
+            $result = json_decode($res,true);
+            if ($result['StateDescription'] == "OK")
+            {
+                exit ('success');
+            }
 		}elseif($param1 == "restore"){
 			$cmdid = MSS_REGAIN_ACTOR;
 			$strcom = $param2;

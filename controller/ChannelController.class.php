@@ -52,6 +52,7 @@ class ChannelController extends Controller {
 
                 $this->ChannelModel->handle('insert',array('data'=>$data), 'channel');
                 $this->LogModel->logAdd("添加渠道信息，渠道名称:{$name}");
+                Util::requestGame();
                 break;
             case 'del':
                 $id = $_POST['id'];

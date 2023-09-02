@@ -1,2 +1,296 @@
 [03-Aug-2023 14:17:19 Asia/Shanghai] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in E:\gameback\includes\common.inc.php on line 55
 [03-Aug-2023 14:22:24 Asia/Shanghai] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in E:\gameback\includes\common.inc.php on line 55
+[23-Aug-2023 15:41:08 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 15:41:08 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 15:41:08 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 15:41:08 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 15:41:08 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 15:41:08 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:07:51 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:07:51 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:07:51 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:07:51 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:07:51 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:07:51 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:07:53 Asia/Chongqing] PHP Fatal error:  Call to undefined method Util::txtToArray() in E:\phpstudy_pro\WWW\gm\gameback\controller\TestController.class.php on line 12
+[23-Aug-2023 16:07:53 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:07:53 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:07:53 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:07:53 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:07:53 Asia/Chongqing] PHP   4. TestController->index() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:07:55 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[23-Aug-2023 16:07:55 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:07:55 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:07:55 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:07:55 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:07:55 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:08:24 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:08:24 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:08:24 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:08:24 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:08:24 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:08:24 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:08:35 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:08:35 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:08:35 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:08:35 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:08:35 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:08:35 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:08:41 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:08:41 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:08:41 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:08:41 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:08:41 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:08:41 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:08:44 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:08:44 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:08:44 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:08:44 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:08:44 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:08:44 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:09:03 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[23-Aug-2023 16:09:03 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:09:03 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:09:03 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:09:03 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:09:03 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:09:04 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[23-Aug-2023 16:09:04 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:09:04 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:09:04 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:09:04 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:09:04 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:09:06 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[23-Aug-2023 16:09:06 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:09:06 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:09:06 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:09:06 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:09:06 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:25:41 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:25:41 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:25:41 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:25:41 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:25:41 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:25:41 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:26:04 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:26:04 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:26:04 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:26:04 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:26:04 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:26:04 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:26:06 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:26:06 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:26:06 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:26:06 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:26:06 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:26:06 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[23-Aug-2023 16:26:08 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[23-Aug-2023 16:26:08 Asia/Chongqing] PHP Stack trace:
+[23-Aug-2023 16:26:08 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[23-Aug-2023 16:26:08 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[23-Aug-2023 16:26:08 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[23-Aug-2023 16:26:08 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[24-Aug-2023 10:29:58 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[24-Aug-2023 10:29:58 Asia/Chongqing] PHP Stack trace:
+[24-Aug-2023 10:29:58 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[24-Aug-2023 10:29:58 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[24-Aug-2023 10:29:58 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[24-Aug-2023 10:29:58 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[24-Aug-2023 10:30:22 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[24-Aug-2023 10:30:22 Asia/Chongqing] PHP Stack trace:
+[24-Aug-2023 10:30:22 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[24-Aug-2023 10:30:22 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[24-Aug-2023 10:30:22 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[24-Aug-2023 10:30:22 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[24-Aug-2023 10:31:41 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[24-Aug-2023 10:31:41 Asia/Chongqing] PHP Stack trace:
+[24-Aug-2023 10:31:41 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[24-Aug-2023 10:31:41 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[24-Aug-2023 10:31:41 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[24-Aug-2023 10:31:41 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[24-Aug-2023 10:32:26 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 151
+[24-Aug-2023 10:32:26 Asia/Chongqing] PHP Stack trace:
+[24-Aug-2023 10:32:26 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[24-Aug-2023 10:32:26 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[24-Aug-2023 10:32:26 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[24-Aug-2023 10:32:26 Asia/Chongqing] PHP   4. RoleController->dataTablesRespond() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 46
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:13:48 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251228 AND unix_timestamp(logdate)<1692929628', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 47
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:14:34 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251274 AND unix_timestamp(logdate)<1692929674', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 47
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:14:40 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251280 AND unix_timestamp(logdate)<1692929680', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 48
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:15:31 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251331 AND unix_timestamp(logdate)<1692929731', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 47
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:21:24 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251684 AND unix_timestamp(logdate)<1692930084', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 47
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:21:28 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251688 AND unix_timestamp(logdate)<1692930088', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\model\MailModel.php on line 48
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP   4. MailController->mail_list_data() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 10:21:51 Asia/Chongqing] PHP   5. MailModel->getData($condition = array ('where' => 'unix_timestamp(logdate)>=1690251711 AND unix_timestamp(logdate)<1692930111', 'order' => 'id desc', 'limit' => '0,50', 'fields' => '*', 'sEcho' => '2'), $type = 'server_mail') E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php:122
+[25-Aug-2023 14:30:50 Asia/Chongqing] PHP Fatal error:  Cannot use object of type stdClass as array in E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php on line 306
+[25-Aug-2023 14:30:50 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 14:30:50 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 14:30:50 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 14:30:50 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 14:30:50 Asia/Chongqing] PHP   4. MailController->check() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP Parse error:  syntax error, unexpected ')' in E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php on line 325
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP Stack trace:
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP   4. spl_autoload_call('MailController') E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:39
+[25-Aug-2023 15:35:48 Asia/Chongqing] PHP   5. __autoload($className = 'MailController') E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:39
+[29-Aug-2023 10:48:03 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[29-Aug-2023 10:48:03 Asia/Chongqing] PHP Stack trace:
+[29-Aug-2023 10:48:03 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[29-Aug-2023 10:48:03 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[29-Aug-2023 10:48:03 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[29-Aug-2023 10:48:03 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[29-Aug-2023 10:48:07 Asia/Chongqing] PHP Fatal error:  Call to undefined method Util::txtToArray() in E:\phpstudy_pro\WWW\gm\gameback\controller\TestController.class.php on line 12
+[29-Aug-2023 10:48:07 Asia/Chongqing] PHP Stack trace:
+[29-Aug-2023 10:48:07 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[29-Aug-2023 10:48:07 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[29-Aug-2023 10:48:07 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[29-Aug-2023 10:48:07 Asia/Chongqing] PHP   4. TestController->index() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[29-Aug-2023 10:49:50 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[29-Aug-2023 10:49:50 Asia/Chongqing] PHP Stack trace:
+[29-Aug-2023 10:49:50 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[29-Aug-2023 10:49:50 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[29-Aug-2023 10:49:50 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[29-Aug-2023 10:49:50 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[29-Aug-2023 11:10:48 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php on line 276
+[29-Aug-2023 11:10:48 Asia/Chongqing] PHP Stack trace:
+[29-Aug-2023 11:10:48 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[29-Aug-2023 11:10:48 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[29-Aug-2023 11:10:48 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[29-Aug-2023 11:10:48 Asia/Chongqing] PHP   4. MailController->check() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[29-Aug-2023 11:12:47 Asia/Chongqing] PHP Fatal error:  Call to a member function fetch_assoc() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\MailController.class.php on line 276
+[29-Aug-2023 11:12:47 Asia/Chongqing] PHP Stack trace:
+[29-Aug-2023 11:12:47 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[29-Aug-2023 11:12:47 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[29-Aug-2023 11:12:47 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[29-Aug-2023 11:12:47 Asia/Chongqing] PHP   4. MailController->check() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 122
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP Stack trace:
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP   4. spl_autoload_call('RoleController') E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:39
+[29-Aug-2023 17:28:11 Asia/Chongqing] PHP   5. __autoload($className = 'RoleController') E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:39
+[30-Aug-2023 14:16:18 Asia/Chongqing] PHP Fatal error:  Call to undefined method Util::txtToArray() in E:\phpstudy_pro\WWW\gm\gameback\controller\TestController.class.php on line 12
+[30-Aug-2023 14:16:18 Asia/Chongqing] PHP Stack trace:
+[30-Aug-2023 14:16:18 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[30-Aug-2023 14:16:18 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[30-Aug-2023 14:16:18 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[30-Aug-2023 14:16:18 Asia/Chongqing] PHP   4. TestController->index() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[30-Aug-2023 14:16:20 Asia/Chongqing] PHP Fatal error:  Call to undefined method Util::txtToArray() in E:\phpstudy_pro\WWW\gm\gameback\controller\TestController.class.php on line 12
+[30-Aug-2023 14:16:20 Asia/Chongqing] PHP Stack trace:
+[30-Aug-2023 14:16:20 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[30-Aug-2023 14:16:20 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[30-Aug-2023 14:16:20 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[30-Aug-2023 14:16:20 Asia/Chongqing] PHP   4. TestController->index() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[30-Aug-2023 14:16:29 Asia/Chongqing] PHP Fatal error:  Call to undefined function apache_get_modules() in E:\phpstudy_pro\WWW\gm\gameback\controller\SystemController.class.php on line 41
+[30-Aug-2023 14:16:29 Asia/Chongqing] PHP Stack trace:
+[30-Aug-2023 14:16:29 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[30-Aug-2023 14:16:29 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[30-Aug-2023 14:16:29 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[30-Aug-2023 14:16:29 Asia/Chongqing] PHP   4. SystemController->items() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 15:42:27 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: CDict::$benefitStatus in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitController.class.php on line 111
+[01-Sep-2023 15:42:27 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 15:42:27 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 15:42:27 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 15:42:27 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 15:42:27 Asia/Chongqing] PHP   4. BenefitController->edit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 15:42:37 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: CDict::$benefitStatus in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitController.class.php on line 111
+[01-Sep-2023 15:42:37 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 15:42:37 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 15:42:37 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 15:42:37 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 15:42:37 Asia/Chongqing] PHP   4. BenefitController->edit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 15:43:57 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: CDict::$benefitStatus in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitController.class.php on line 111
+[01-Sep-2023 15:43:57 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 15:43:57 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 15:43:57 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 15:43:57 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 15:43:57 Asia/Chongqing] PHP   4. BenefitController->edit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 15:43:58 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: CDict::$benefitStatus in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitController.class.php on line 111
+[01-Sep-2023 15:43:58 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 15:43:58 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 15:43:58 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 15:43:58 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 15:43:58 Asia/Chongqing] PHP   4. BenefitController->edit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 15:45:56 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: CDict::$benefitStatus in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitController.class.php on line 111
+[01-Sep-2023 15:45:56 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 15:45:56 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 15:45:56 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 15:45:56 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 15:45:56 Asia/Chongqing] PHP   4. BenefitController->edit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 15:46:00 Asia/Chongqing] PHP Fatal error:  Access to undeclared static property: CDict::$benefitStatus in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitController.class.php on line 111
+[01-Sep-2023 15:46:00 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 15:46:00 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 15:46:00 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 15:46:00 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 15:46:00 Asia/Chongqing] PHP   4. BenefitController->edit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'BenefituserController.php' (include_path='.;C:\php\pear;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel') in E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php on line 74
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP   4. spl_autoload_call('BenefituserController') E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:39
+[01-Sep-2023 16:48:19 Asia/Chongqing] PHP   5. autoload($className = 'BenefituserController') E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:39
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP Fatal error:  require_once(): Failed opening required 'BenefitUserModel.php' (include_path='.;C:\php\pear;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel;E:\phpstudy_pro\WWW\gm\gameback/model;E:\phpstudy_pro\WWW\gm\gameback/component;E:\phpstudy_pro\WWW\gm\gameback/controller/cron;E:\phpstudy_pro\WWW\gm\gameback/library/PHPExcel') in E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php on line 74
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP   4. BenefitUserController->__construct() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:39
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP   5. spl_autoload_call('BenefitUserModel') E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:16
+[01-Sep-2023 17:01:32 Asia/Chongqing] PHP   6. autoload($className = 'BenefitUserModel') E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:16
+[01-Sep-2023 17:28:59 Asia/Chongqing] PHP Fatal error:  Call to a member function handle() on null in E:\phpstudy_pro\WWW\gm\gameback\controller\BenefitUserController.class.php on line 123
+[01-Sep-2023 17:28:59 Asia/Chongqing] PHP Stack trace:
+[01-Sep-2023 17:28:59 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[01-Sep-2023 17:28:59 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[01-Sep-2023 17:28:59 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[01-Sep-2023 17:28:59 Asia/Chongqing] PHP   4. BenefitUserController->submit() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41
+[02-Sep-2023 15:44:53 Asia/Chongqing] PHP Fatal error:  Call to undefined method Util::requestGameForKick() in E:\phpstudy_pro\WWW\gm\gameback\controller\RoleController.class.php on line 277
+[02-Sep-2023 15:44:53 Asia/Chongqing] PHP Stack trace:
+[02-Sep-2023 15:44:53 Asia/Chongqing] PHP   1. {main}() E:\phpstudy_pro\WWW\gm\gameback\admin.php:0
+[02-Sep-2023 15:44:53 Asia/Chongqing] PHP   2. print_page() E:\phpstudy_pro\WWW\gm\gameback\admin.php:11
+[02-Sep-2023 15:44:53 Asia/Chongqing] PHP   3. require_once() E:\phpstudy_pro\WWW\gm\gameback\includes\common.inc.php:33
+[02-Sep-2023 15:44:53 Asia/Chongqing] PHP   4. RoleController->ban() E:\phpstudy_pro\WWW\gm\gameback\includes\router.inc.php:41

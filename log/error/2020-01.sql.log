@@ -1,9 +1,0 @@
-[ 2020-01-30 00:00:51 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
-[ 2020-01-30 00:02:30 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
-[ 2020-01-30 23:23:12 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777304 AND batch_id=
-[ 2020-01-30 23:23:13 ]error sql: SELECT count(*) AS total FROM `bg_cdkey_use` WHERE actorid=16777304 AND batch_id=
-[ 2020-01-31 10:35:34 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
-[ 2020-01-31 17:38:40 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
-[ 2020-01-31 18:14:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
-[ 2020-01-31 19:54:09 ]error sql: SELECT * FROM `bg_server` WHERE server_id=
-[ 2020-01-31 22:09:15 ]error sql: SELECT * FROM `bg_server` WHERE server_id=

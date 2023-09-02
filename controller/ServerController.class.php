@@ -38,18 +38,11 @@ class ServerController extends Controller{
         ];
         $showFields = [
             ['title' => '服务器ID','sortable'=>true,'width' => '65px;'],
+            ['title' => '组ID','sortable'=>true,'width' => '65px;'],
             ['title' => '名称','sortable'=>true,'width' => '150px;'],
             ['title' => '渠道','sortable'=>true],
             ['title' => '服务器IP'],
             ['title' => '服务器端口'],
-            ['title' => '游戏版本'],
-            ['title' => '状态'],
-            ['title' => '开服时间'],
-            ['title' => '开服天数'],
-            ['title' => '数据库Host'],
-            ['title' => 'actor数据库名'],
-            ['title' => ' log数据库名'],
-            ['title' => '关服时间'],
             ['title' => '操作','width' => '100px;'],
         ];
         $ajaxSource = "admin.php?ctrl=server&act=dataTablesRespond";
@@ -137,20 +130,10 @@ END;
 
                 $data = array(
                     'name'          => trim($_POST['name']),
-                    'status'        => trim($_POST['status']),
-                    'game_version'  => trim($_POST['game_version']),
-                    'open_time'     => trim($_POST['open_time']),
-                    'close_time'    => trim($_POST['close_time']) ? trim($_POST['close_time']) : "0000-00-00 00:00:00",
                     'server_ip'     => trim($_POST['server_ip']),
                     'server_port'   => trim($_POST['server_port']),
                     'channel'       => trim($_POST['channel']),
-                    'mysql_host'    => trim($_POST['mysql_host']),
-                    'mysql_port'    => trim($_POST['mysql_port']),
-                    'mysql_user'    => trim($_POST['mysql_user']),
-                    'mysql_passwd'  => trim($_POST['mysql_passwd']),
-                    'actor_table'   => trim($_POST['actor_table']),
-                    'log_table'     => trim($_POST['log_table']),
-                    'merge_id'      => trim($_POST['merge_id']),
+                    'group_id'      => trim($_POST['group_id']),
                 );
 
                 if($id){
